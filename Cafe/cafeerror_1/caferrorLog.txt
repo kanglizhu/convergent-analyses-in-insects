@@ -1,0 +1,430 @@
+# =========================================================================
+#		Assembly/annotation error estimation
+#			11.25.2020 | 10:55:27
+# Using CAFE shell file:           cafe_single_lambda_pre.sh
+# --------------------------
+#			INPUT INFO
+# CAFE path set as:                #! cafe
+# Using gene family file:          Orthogroups.less.than.100.tsv
+# Using tree command:              tree (((((Dponderosae:200,Tcastaneum:200):33,Otaurus:233):13,(Aplanipennis:201,Ppyralis:201):45):81,((((Dplexippus:90,Banynana:90):3,Prapae:93):12,Pxuthus:105):12,Bmori:117):210):46,(((Ofasciatus:219,Clectularius:219):80,Nlugens:299):10,(Apisum:251,Btabaci:251):58):64)
+# Using lambda command             lambda -s 
+# --------------------------
+#			OPTIONS INFO
+# -c 0                             Global grid search option.
+# -e 0.4                           Starting error estimate of 0.4.
+# -f 1                             Initial CAFE run option.
+# -v 0                             CAFE verbosity option.
+# -s 0                             Individual species minimization option.
+# --------------------------
+#			OUTPUT INFO
+# Putting all files in:            cafeerror_1/
+# Log file for all runs:           cafeerror_1/caferrorLog.txt
+# Output file:                     cafeerror_1/caferror_default_output.txt
+# =========================================================================
+# Beginning Global Error Prediction...
+--------------------------
+CAFE run number 1
+Pre run (no error models)
+-----
+## No error models generated
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     188275.017933
+Lambda with above error models:    0.00112843642839
+--------------------------
+CAFE run number 2
+0.4 Error Model Run for all
+-----
+## 0.4 Error File Already Created for Tcastaneum
+## 0.4 Error File Already Created for Dplexippus
+## 0.4 Error File Already Created for Bmori
+## 0.4 Error File Already Created for Pxuthus
+## 0.4 Error File Already Created for Ppyralis
+## 0.4 Error File Already Created for Prapae
+## 0.4 Error File Already Created for Otaurus
+## 0.4 Error File Already Created for Nlugens
+## 0.4 Error File Already Created for Btabaci
+## 0.4 Error File Already Created for Clectularius
+## 0.4 Error File Already Created for Dponderosae
+## 0.4 Error File Already Created for Aplanipennis
+## 0.4 Error File Already Created for Banynana
+## 0.4 Error File Already Created for Ofasciatus
+## 0.4 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     223468.277459
+Lambda with above error models:    0.00100024215543
+--------------------------
+CAFE run number 3
+0.2 Error Model Run for all
+-----
+## 0.2 Error File Already Created for Tcastaneum
+## 0.2 Error File Already Created for Dplexippus
+## 0.2 Error File Already Created for Bmori
+## 0.2 Error File Already Created for Pxuthus
+## 0.2 Error File Already Created for Ppyralis
+## 0.2 Error File Already Created for Prapae
+## 0.2 Error File Already Created for Otaurus
+## 0.2 Error File Already Created for Nlugens
+## 0.2 Error File Already Created for Btabaci
+## 0.2 Error File Already Created for Clectularius
+## 0.2 Error File Already Created for Dponderosae
+## 0.2 Error File Already Created for Aplanipennis
+## 0.2 Error File Already Created for Banynana
+## 0.2 Error File Already Created for Ofasciatus
+## 0.2 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     199773.208865
+Lambda with above error models:    0.00098857373188
+--------------------------
+CAFE run number 4
+0.1 Error Model Run for all
+-----
+## 0.1 Error File Already Created for Tcastaneum
+## 0.1 Error File Already Created for Dplexippus
+## 0.1 Error File Already Created for Bmori
+## 0.1 Error File Already Created for Pxuthus
+## 0.1 Error File Already Created for Ppyralis
+## 0.1 Error File Already Created for Prapae
+## 0.1 Error File Already Created for Otaurus
+## 0.1 Error File Already Created for Nlugens
+## 0.1 Error File Already Created for Btabaci
+## 0.1 Error File Already Created for Clectularius
+## 0.1 Error File Already Created for Dponderosae
+## 0.1 Error File Already Created for Aplanipennis
+## 0.1 Error File Already Created for Banynana
+## 0.1 Error File Already Created for Ofasciatus
+## 0.1 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     195236.905796
+Lambda with above error models:    0.00100199686573
+--------------------------
+CAFE run number 5
+0.05 Error Model Run for all
+-----
+## 0.05 Error File Already Created for Tcastaneum
+## 0.05 Error File Already Created for Dplexippus
+## 0.05 Error File Already Created for Bmori
+## 0.05 Error File Already Created for Pxuthus
+## 0.05 Error File Already Created for Ppyralis
+## 0.05 Error File Already Created for Prapae
+## 0.05 Error File Already Created for Otaurus
+## 0.05 Error File Already Created for Nlugens
+## 0.05 Error File Already Created for Btabaci
+## 0.05 Error File Already Created for Clectularius
+## 0.05 Error File Already Created for Dponderosae
+## 0.05 Error File Already Created for Aplanipennis
+## 0.05 Error File Already Created for Banynana
+## 0.05 Error File Already Created for Ofasciatus
+## 0.05 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     192414.318587
+Lambda with above error models:    0.00103916773396
+--------------------------
+CAFE run number 6
+0.025 Error Model Run for all
+-----
+## 0.025 Error File Already Created for Tcastaneum
+## 0.025 Error File Already Created for Dplexippus
+## 0.025 Error File Already Created for Bmori
+## 0.025 Error File Already Created for Pxuthus
+## 0.025 Error File Already Created for Ppyralis
+## 0.025 Error File Already Created for Prapae
+## 0.025 Error File Already Created for Otaurus
+## 0.025 Error File Already Created for Nlugens
+## 0.025 Error File Already Created for Btabaci
+## 0.025 Error File Already Created for Clectularius
+## 0.025 Error File Already Created for Dponderosae
+## 0.025 Error File Already Created for Aplanipennis
+## 0.025 Error File Already Created for Banynana
+## 0.025 Error File Already Created for Ofasciatus
+## 0.025 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191377.903222
+Lambda with above error models:    0.00106416638297
+--------------------------
+CAFE run number 7
+0.0125 Error Model Run for all
+-----
+## 0.0125 Error File Already Created for Tcastaneum
+## 0.0125 Error File Already Created for Dplexippus
+## 0.0125 Error File Already Created for Bmori
+## 0.0125 Error File Already Created for Pxuthus
+## 0.0125 Error File Already Created for Ppyralis
+## 0.0125 Error File Already Created for Prapae
+## 0.0125 Error File Already Created for Otaurus
+## 0.0125 Error File Already Created for Nlugens
+## 0.0125 Error File Already Created for Btabaci
+## 0.0125 Error File Already Created for Clectularius
+## 0.0125 Error File Already Created for Dponderosae
+## 0.0125 Error File Already Created for Aplanipennis
+## 0.0125 Error File Already Created for Banynana
+## 0.0125 Error File Already Created for Ofasciatus
+## 0.0125 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     187999.846175
+Lambda with above error models:    0.00110271089766
+--------------------------
+CAFE run number 8
+0.00625 Error Model Run for all
+-----
+## 0.00625 Error File Already Created for Tcastaneum
+## 0.00625 Error File Already Created for Dplexippus
+## 0.00625 Error File Already Created for Bmori
+## 0.00625 Error File Already Created for Pxuthus
+## 0.00625 Error File Already Created for Ppyralis
+## 0.00625 Error File Already Created for Prapae
+## 0.00625 Error File Already Created for Otaurus
+## 0.00625 Error File Already Created for Nlugens
+## 0.00625 Error File Already Created for Btabaci
+## 0.00625 Error File Already Created for Clectularius
+## 0.00625 Error File Already Created for Dponderosae
+## 0.00625 Error File Already Created for Aplanipennis
+## 0.00625 Error File Already Created for Banynana
+## 0.00625 Error File Already Created for Ofasciatus
+## 0.00625 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     190986.068063
+Lambda with above error models:    0.00108882344331
+--------------------------
+CAFE run number 9
+0.015625 Error Model Run for all
+-----
+## 0.015625 Error File Already Created for Tcastaneum
+## 0.015625 Error File Already Created for Dplexippus
+## 0.015625 Error File Already Created for Bmori
+## 0.015625 Error File Already Created for Pxuthus
+## 0.015625 Error File Already Created for Ppyralis
+## 0.015625 Error File Already Created for Prapae
+## 0.015625 Error File Already Created for Otaurus
+## 0.015625 Error File Already Created for Nlugens
+## 0.015625 Error File Already Created for Btabaci
+## 0.015625 Error File Already Created for Clectularius
+## 0.015625 Error File Already Created for Dponderosae
+## 0.015625 Error File Already Created for Aplanipennis
+## 0.015625 Error File Already Created for Banynana
+## 0.015625 Error File Already Created for Ofasciatus
+## 0.015625 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191107.053147
+Lambda with above error models:    0.00107537538057
+--------------------------
+CAFE run number 10
+0.0109375 Error Model Run for all
+-----
+## 0.0109375 Error File Already Created for Tcastaneum
+## 0.0109375 Error File Already Created for Dplexippus
+## 0.0109375 Error File Already Created for Bmori
+## 0.0109375 Error File Already Created for Pxuthus
+## 0.0109375 Error File Already Created for Ppyralis
+## 0.0109375 Error File Already Created for Prapae
+## 0.0109375 Error File Already Created for Otaurus
+## 0.0109375 Error File Already Created for Nlugens
+## 0.0109375 Error File Already Created for Btabaci
+## 0.0109375 Error File Already Created for Clectularius
+## 0.0109375 Error File Already Created for Dponderosae
+## 0.0109375 Error File Already Created for Aplanipennis
+## 0.0109375 Error File Already Created for Banynana
+## 0.0109375 Error File Already Created for Ofasciatus
+## 0.0109375 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191017.474828
+Lambda with above error models:    0.00108170296592
+--------------------------
+CAFE run number 11
+0.01328125 Error Model Run for all
+-----
+## 0.01328125 Error File Already Created for Tcastaneum
+## 0.01328125 Error File Already Created for Dplexippus
+## 0.01328125 Error File Already Created for Bmori
+## 0.01328125 Error File Already Created for Pxuthus
+## 0.01328125 Error File Already Created for Ppyralis
+## 0.01328125 Error File Already Created for Prapae
+## 0.01328125 Error File Already Created for Otaurus
+## 0.01328125 Error File Already Created for Nlugens
+## 0.01328125 Error File Already Created for Btabaci
+## 0.01328125 Error File Already Created for Clectularius
+## 0.01328125 Error File Already Created for Dponderosae
+## 0.01328125 Error File Already Created for Aplanipennis
+## 0.01328125 Error File Already Created for Banynana
+## 0.01328125 Error File Already Created for Ofasciatus
+## 0.01328125 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191057.035379
+Lambda with above error models:    0.00107847461563
+--------------------------
+CAFE run number 12
+0.012109375 Error Model Run for all
+-----
+## 0.012109375 Error File Already Created for Tcastaneum
+## 0.012109375 Error File Already Created for Dplexippus
+## 0.012109375 Error File Already Created for Bmori
+## 0.012109375 Error File Already Created for Pxuthus
+## 0.012109375 Error File Already Created for Ppyralis
+## 0.012109375 Error File Already Created for Prapae
+## 0.012109375 Error File Already Created for Otaurus
+## 0.012109375 Error File Already Created for Nlugens
+## 0.012109375 Error File Already Created for Btabaci
+## 0.012109375 Error File Already Created for Clectularius
+## 0.012109375 Error File Already Created for Dponderosae
+## 0.012109375 Error File Already Created for Aplanipennis
+## 0.012109375 Error File Already Created for Banynana
+## 0.012109375 Error File Already Created for Ofasciatus
+## 0.012109375 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191035.772322
+Lambda with above error models:    0.00108007222963
+--------------------------
+CAFE run number 13
+0.0126953125 Error Model Run for all
+-----
+## 0.0126953125 Error File Already Created for Tcastaneum
+## 0.0126953125 Error File Already Created for Dplexippus
+## 0.0126953125 Error File Already Created for Bmori
+## 0.0126953125 Error File Already Created for Pxuthus
+## 0.0126953125 Error File Already Created for Ppyralis
+## 0.0126953125 Error File Already Created for Prapae
+## 0.0126953125 Error File Already Created for Otaurus
+## 0.0126953125 Error File Already Created for Nlugens
+## 0.0126953125 Error File Already Created for Btabaci
+## 0.0126953125 Error File Already Created for Clectularius
+## 0.0126953125 Error File Already Created for Dponderosae
+## 0.0126953125 Error File Already Created for Aplanipennis
+## 0.0126953125 Error File Already Created for Banynana
+## 0.0126953125 Error File Already Created for Ofasciatus
+## 0.0126953125 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191046.066750
+Lambda with above error models:    0.00107926473474
+--------------------------
+CAFE run number 14
+0.01240234375 Error Model Run for all
+-----
+## 0.01240234375 Error File Already Created for Tcastaneum
+## 0.01240234375 Error File Already Created for Dplexippus
+## 0.01240234375 Error File Already Created for Bmori
+## 0.01240234375 Error File Already Created for Pxuthus
+## 0.01240234375 Error File Already Created for Ppyralis
+## 0.01240234375 Error File Already Created for Prapae
+## 0.01240234375 Error File Already Created for Otaurus
+## 0.01240234375 Error File Already Created for Nlugens
+## 0.01240234375 Error File Already Created for Btabaci
+## 0.01240234375 Error File Already Created for Clectularius
+## 0.01240234375 Error File Already Created for Dponderosae
+## 0.01240234375 Error File Already Created for Aplanipennis
+## 0.01240234375 Error File Already Created for Banynana
+## 0.01240234375 Error File Already Created for Ofasciatus
+## 0.01240234375 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191040.846710
+Lambda with above error models:    0.00107966418539
+--------------------------
+CAFE run number 15
+0.012548828125 Error Model Run for all
+-----
+## 0.012548828125 Error File Already Created for Tcastaneum
+## 0.012548828125 Error File Already Created for Dplexippus
+## 0.012548828125 Error File Already Created for Bmori
+## 0.012548828125 Error File Already Created for Pxuthus
+## 0.012548828125 Error File Already Created for Ppyralis
+## 0.012548828125 Error File Already Created for Prapae
+## 0.012548828125 Error File Already Created for Otaurus
+## 0.012548828125 Error File Already Created for Nlugens
+## 0.012548828125 Error File Already Created for Btabaci
+## 0.012548828125 Error File Already Created for Clectularius
+## 0.012548828125 Error File Already Created for Dponderosae
+## 0.012548828125 Error File Already Created for Aplanipennis
+## 0.012548828125 Error File Already Created for Banynana
+## 0.012548828125 Error File Already Created for Ofasciatus
+## 0.012548828125 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191043.425218
+Lambda with above error models:    0.00107946764849
+--------------------------
+CAFE run number 16
+0.0124755859375 Error Model Run for all
+-----
+## 0.0124755859375 Error File Already Created for Tcastaneum
+## 0.0124755859375 Error File Already Created for Dplexippus
+## 0.0124755859375 Error File Already Created for Bmori
+## 0.0124755859375 Error File Already Created for Pxuthus
+## 0.0124755859375 Error File Already Created for Ppyralis
+## 0.0124755859375 Error File Already Created for Prapae
+## 0.0124755859375 Error File Already Created for Otaurus
+## 0.0124755859375 Error File Already Created for Nlugens
+## 0.0124755859375 Error File Already Created for Btabaci
+## 0.0124755859375 Error File Already Created for Clectularius
+## 0.0124755859375 Error File Already Created for Dponderosae
+## 0.0124755859375 Error File Already Created for Aplanipennis
+## 0.0124755859375 Error File Already Created for Banynana
+## 0.0124755859375 Error File Already Created for Ofasciatus
+## 0.0124755859375 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191042.141841
+Lambda with above error models:    0.00107956504225
+--------------------------
+CAFE run number 17(FINAL RUN)
+With minimized error models
+-----
+## 0.0125 Error File Already Created for Tcastaneum
+## 0.0125 Error File Already Created for Dplexippus
+## 0.0125 Error File Already Created for Bmori
+## 0.0125 Error File Already Created for Pxuthus
+## 0.0125 Error File Already Created for Ppyralis
+## 0.0125 Error File Already Created for Prapae
+## 0.0125 Error File Already Created for Otaurus
+## 0.0125 Error File Already Created for Nlugens
+## 0.0125 Error File Already Created for Btabaci
+## 0.0125 Error File Already Created for Clectularius
+## 0.0125 Error File Already Created for Dponderosae
+## 0.0125 Error File Already Created for Aplanipennis
+## 0.0125 Error File Already Created for Banynana
+## 0.0125 Error File Already Created for Ofasciatus
+## 0.0125 Error File Already Created for Apisum
+-----
+Rewriting CAFE shell script...
+Running CAFE [silently] with error models listed above...
+Score with above error models:     191042.555711
+Lambda with above error models:    0.00107953568147
+# =======================================================================
+# ************************************
+# Score with no errormodel:        188275.017933
+# Lambda with no errormodel:       0.00112843642839
+# ************************************
+# Global Error Estimation:         0.0125
+# Score with global errormodel:    187999.846175
+# Lambda with global errormodel:   0.00110271089766
+# ************************************
+# =======================================================================
+# Caferror finished at:            11.25.2020 | 10:55:28
+# Runtime:                         0.00905248324076 minutes

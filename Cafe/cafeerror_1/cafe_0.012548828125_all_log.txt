@@ -1,0 +1,74 @@
+-----------------------------------------------------------
+Family information: Orthogroups.less.than.100.tsv
+Log: cafeerror_1/cafe_0.012548828125_all_log.txt
+Tree: (((((Dponderosae:200,Tcastaneum:200):33,Otaurus:233):13,(Aplanipennis:201,Ppyralis:201):45):81,((((Dplexippus:90,Banynana:90):3,Prapae:93):12,Pxuthus:105):12,Bmori:117):210):46,(((Ofasciatus:219,Clectularius:219):80,Nlugens:299):10,(Apisum:251,Btabaci:251):58):64)
+The number of families is 13759
+Root Family size : 1 ~ 124
+Family size : 0 ~ 149
+P-value: 0.01
+Num of Threads: 10
+Num of Random: 1000
+Empirical Prior Estimation Result: (34 iterations)
+Poisson lambda: 0.438049 & Score: 166633.291547
+Lambda : 0.00252566911143 & Score: -212081.713642
+.Lambda : 0.00265195256700 & Score: -214685.160346
+.Lambda : 0.00239938565586 & Score: -209514.083978
+.Lambda : 0.00227310220029 & Score: -206996.129637
+.Lambda : 0.00202053528914 & Score: -202179.002552
+.Lambda : 0.00176796837800 & Score: -197809.784068
+.Lambda : 0.00126283455572 & Score: -191689.671577
+.Lambda : 0.00075770073343 & Score: -194011.826377
+.Lambda : 0.00075770073343 & Score: -194011.826377
+.Lambda : 0.00176796837800 & Score: -197809.784068
+.Lambda : 0.00151540146686 & Score: -194164.635794
+.Lambda : 0.00101026764457 & Score: -191154.025096
+.Lambda : 0.00075770073343 & Score: -194011.826377
+.Lambda : 0.00088398418900 & Score: -192020.383038
+.Lambda : 0.00113655110014 & Score: -191111.580406
+.Lambda : 0.00126283455572 & Score: -191689.671577
+.Lambda : 0.00119969282793 & Score: -191333.165870
+.Lambda : 0.00107340937236 & Score: -191044.231760
+.Lambda : 0.00101026764457 & Score: -191154.025096
+.Lambda : 0.00104183850847 & Score: -191075.342927
+.Lambda : 0.00110498023625 & Score: -191057.339468
+.Lambda : 0.00104183850847 & Score: -191075.342927
+.Lambda : 0.00105762394041 & Score: -191054.056931
+.Lambda : 0.00108919480430 & Score: -191045.479015
+.Lambda : 0.00105762394041 & Score: -191054.056931
+.Lambda : 0.00106551665638 & Score: -191047.735378
+.Lambda : 0.00108130208833 & Score: -191043.499197
+.Lambda : 0.00108919480430 & Score: -191045.479015
+.Lambda : 0.00108524844632 & Score: -191044.152756
+.Lambda : 0.00107735573034 & Score: -191043.523357
+.Lambda : 0.00108524844632 & Score: -191044.152756
+.Lambda : 0.00108327526732 & Score: -191043.741786
+.Lambda : 0.00107932890934 & Score: -191043.425635
+.Lambda : 0.00107735573034 & Score: -191043.523357
+.Lambda : 0.00107834231984 & Score: -191043.453038
+.Lambda : 0.00108031549883 & Score: -191043.441053
+.Lambda : 0.00107834231984 & Score: -191043.453038
+.Lambda : 0.00107883561459 & Score: -191043.433978
+.Lambda : 0.00107982220409 & Score: -191043.427997
+.Lambda : 0.00107883561459 & Score: -191043.433978
+.Lambda : 0.00107908226196 & Score: -191043.428468
+.Lambda : 0.00107957555671 & Score: -191043.425479
+.Lambda : 0.00107982220409 & Score: -191043.427997
+.Lambda : 0.00107969888040 & Score: -191043.426404
+.Lambda : 0.00107945223303 & Score: -191043.425223
+.Lambda : 0.00107932890934 & Score: -191043.425635
+.Lambda : 0.00107939057118 & Score: -191043.425345
+.Lambda : 0.00107951389487 & Score: -191043.425267
+.Lambda : 0.00107939057118 & Score: -191043.425345
+.Lambda : 0.00107942140210 & Score: -191043.425263
+.Lambda : 0.00107948306395 & Score: -191043.425224
+.Lambda : 0.00107942140210 & Score: -191043.425263
+.Lambda : 0.00107943681756 & Score: -191043.425238
+.Lambda : 0.00107946764849 & Score: -191043.425218
+.Lambda : 0.00107948306395 & Score: -191043.425224
+.Lambda : 0.00107947535622 & Score: -191043.425220
+.Lambda : 0.00107945994076 & Score: -191043.425219
+.
+Lambda Search Result: 28
+Lambda : 0.00107946764849 & Score: 191043.425218
+DONE: Lambda Search or setting, for command:
+lambda -s 
