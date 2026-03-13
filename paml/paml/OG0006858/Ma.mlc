@@ -1,0 +1,320 @@
+     14    213
+
+Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696  GCT GAA TTT TCA CAA CAA TTA TAC TTT TGG ??? AAA TGG CTG GAC AAA GCA TTT GTG GGT ACT GCG CCA AAA ATT ATT GTT AAA AAA GAT CAA TTT ATA ATG ACT CCG CCA TTT TTT TTC GTT ACT ATG TTT TGG TTG CCA GCA CAA GCT ATT AAT TTC CGT GTA ATT TAT GTT TCA TTT GTA TGG ATA AAT ATG TTA TGC TGG ATC AAA AGA 
+Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594  TCC GAA ATA TCA CAG CAG TTA ACA ATT TGG ??? AGA TAT TTG GAT TCA AAA CTG AAG GGG ACC GCT TAT AAA ATT GTT ACG CAA AAA GAC CAA TTC CTA GCT ACC CCC CCA CTT TTC TTT ATC GCA ATG TTT TGG CTT CCG GTT CAA ACG ATA AAT TTC AGG GTG ATT TAC GTT TCC TTA ACG TGG GTT AAC ATT CTT TGT TGG ATT AAG CGA 
+Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860  GCC GAA TTT TCT CAG CAG CTG TAC TTT TGG ??? AAA TGG TTA GAC AAG AAT TTT GTT GGG ACT GCT AAA AAA GTT GTT GTG AAG AAA GAT CAG TTC TGT ATG ACA CCT CCT CTT TTC TAC GTC AGT ATG TTT TGG CTT CCC GCA CAA GCC GTC AAT TTT AGA GTT GTG TAT GTT TCC TTT TTA TGG ATC AAT ATT CTT TGC TGG ATC AAA AGG 
+Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621  GCA GAG ATT TCG CAG CAA CTG TAT TAT TGG ??? AAG TTT TTG GAT AAG AAG TTC GTC GGA ACA GCC GTC AAA GCA GTC GCA GTT AAG GAC CAG TTT ATC ATG ACT CCC ATT TTA TTC TAC ACA CTA CTT TTC TGG ATT CCA GGA CAG ACC ATT AAC TTC CGT GTG GTT TAT GTC TCT TTT ATA TGG ATC AAT GTT CTC TGC TTC ATA AAA AGA 
+Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793  GCT GAA TTG TCG CAG CAA TTG TAC TTT TGG ??? AAA TTT TTG GAC AAG AAG TTT GCC GGC AAC GCG ATC AAA GCC GTA GCG ACA AAA GAT CAG TTC ATT ATG ACG CCT ATA TTA TTT TAT ACT TTG TTG TTT TGG ATT CCA GCG CAA ACG ATT AAC TTT AGA GTT GTT TAC GTA TCT TTC GTG TGG ATC AAT ATC CTT TGC TTT ATT AAG AGA 
+Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208  GCC GAG TTT TCA CAG CAG TTA TAT TTC TGG ??? AGA TGG TTG GAC AGG AAT TTT GTC GGT GCG TCG ATG AAA ATC GTT ACG AAA AAG GAC CAA TTC GTC CTC ACG CCC CAG CTA TTC TAT GTG AGT ATG TTC TGG CTG CCT GCC CAG GCC ATC AAT TTC CGT GTT GTT TAC GTA TCG TTC ATA TGG GTA AAT ATA CTC TGC TGG ATC AAG AGG 
+Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466  GCG GAG TTG TCG CAG CAA CTA TAC CAT TGG ??? AAG TTC CTG GAT AGA AAA TTC GTT GGC ACT ACT TTA AAA GTG GTC AAC ACC AAA GAC CAG CTC ATT ATG ACA CCG ATT CTC TTT TAC ACG GGG ATG TAC TGG ATA CCA GCG CAG ACG GTC AAC TTT CGA GTT GTT TAC GTC TCA TTC ATA TGG ATC AAC GTG CTC TGT TTT ATT AAA CGA 
+Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627  GCT GAG TTC ACA CAG CAG TTA TAT TTC TGG ??? AAA TGG CTG GAC AAA AAT TTT TCT GGA ACC GCC AAG AAA ACC ATT GTG AAA AAA GAC CAG TTT GCT ATG ACG CCT AAT CTG TTC TAC ATC AGT ATG TTT TGG CTG CCT GCG CAA ACC ATC AAC TTC CGC GTC GTC TAT GTT TCC TTC CTC TGG CTC AAC ATC TTA TGT CTC CTA AAG AGC 
+Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250  GCG GAA TTC AGC CAA CAG CTG TAT TTC TGG ??? --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898  GCT GAG TGC ATC AAT CAA ATG ACT GTT TGG ??? CGT TGG CTG GAT AAA ACG TAC GCT TCA ACT GCG CCA AAA ATT GTC CTT AGA AAA GAT CAA TTC TTG TTT ACA CCA CTT TTA TTT TAC ACG TCG ATG TTT TGG CTA CCA GTT CAA GCA TTA AAC TTT CGA GTC ATT TAT ATG TCA TTC GCT TGG GTC ACA ATT CTA TGC TAC ATT AAA AGT 
+Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346  GCG GAG CTC TCA CAG CAG CTA TAC TTT TGG ??? AAA TTC CTG GAT AGA AAA TTT CCA GGC ACA GCA GTG AAG ATG GTG GCC ACC AAA GAT CAG TTT GTC ATG ACA CCA ATA CTT TTT TAT ATA TTA ATG TTC TGG ATA CCC GGA CAG ACG ATC AAC TTC CGT GTC GTG TAT GTA TCT TTT ATT TGG ATC AAT GTT TTG TGC TTC ATC AAA CGG 
+Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418  GCG GAA TTT TCG CAA CAG CTC ACA GTT TGG ??? AAA TGG TTG GAC GCA AAG TAC ATT GGC ACC GGT CTC AAG ATT GTT GGA AAG AAG GAT CAA TTT CTG CTG ACG CCA CAA ATC TTC TTT ACC GCT ATG TTC TGG CTT CCG GCC CAA AGC GTT AAT TTT CGC GTC GTT TAT ATC TCA TTC GGT TGG GTA AAT ATA CTT TGC TAC ATT AAA AGG 
+Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850  GCA GAA CTG TCT CAG CAG TTA TAT TTC TGG ??? AAG TTC CTA GAC CGG AAG TTT GTA GGG ACT TCG ATG AGA ACT GTT CTT ACC AAA GAC CAG TTT CTT ATG ACT CCA GTA TTG TTT TAC ATA TTG CTT TTC TGG ATC CCG GGA CAG ACA ATT AAT TTC AGA GTG GTT TAT GTA TCA TTT CTT TGG ATA AAT ATA TTA TGT TTC ATC AAA AGA 
+Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087  GCC GAA TTT TCC CAA CAA TAC CAG TAC TGG ??? AGA TGG TTA GAC AAG AAA TTT ATC GGA ACC TCG TAC AAA ATT GTA GCA CAA AAA GAC CAA TTC TTA ATG ACC CCG CAG ATT TTT TAT GTT GCC ATG TTT TGG CTT CCA GCC CAA ACT GTA AAT TTC AGG GTC GTT TAT GTT TCA TTT GCA TGG GTC AAC ATT TTG TGC TGG ATT AAG CGA 
+
+
+
+Printing out site pattern counts
+
+
+        14        210  P
+
+Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696   ??? AAA AAA AAA AAA AAA AAA AAT AAT ACT ACT ACT AGA ATA ATA ATC ATG ATG ATG ATT ATT ATT ATT CAA CAA CAA CAA CCA CCA CCA CCG CGT CTG GAA GAC GAT GCA GCA GCG GCT GCT GGT GTA GTA GTG GTT GTT GTT TAC TAT TCA TCA TGC TGG TGG TGG TGG TTA TTA TTC TTC TTG TTT TTT TTT TTT TTT TTT TTT TTT
+Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594   ??? AAA AAA AAG AGA CAA TCA AAC AAT ACC ACC GCA CGA CTA GTT ATT ATG ATT GCT ATA ATT ATT GTT CAA CAA CAG CAG CCA CCG TAT CCC AGG TTG GAA GAT GAC AAA GTT GCT ACG TCC GGG ACG GTG AAG ACG ATC GTT ACA TAC TCA TCC TGT TAT TGG TGG TGG CTT TTA TTC TTT CTT ATA ATT CTG CTT TTA TTC TTC TTT
+Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860   ??? AAA AAA AAA AAA AAG AAG AAT AAT ACA ACT AGT AGG TGT ATC ATC ATG ATT ATG GTC GTG GTT GTT CAA CAG CAG CAG CCT CCC AAA CCT AGA TTA GAA GAC GAT AAT GCA GCT GCC GCC GGG TTA GTT GTT GTG GTC GTT TAC TAT TCT TCC TGC TGG TGG TGG TGG CTT CTG TTT TAC CTT TTT TTT TTT CTT TTT TTC TTC TTT
+Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621   ??? AAA AAG AAA AAG GTT AAG AAT AAC ACT ACA CTA AGA ATC ATC ATA CTT GTT ATG ATT GTT GCA GTC CAG CAG CAA CAG ATT CCA GTC CCC CGT TTG GAG GAT GAC AAG GGA GCC ACC GCA GGA ATA GTG GTC GCA ACA GTC TAT TAT TCG TCT TGC TTT TGG TGG TTC CTC CTG TTC TAC ATT ATT TAT TTC TTA TTT TTC TTT TTC
+Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793   ??? AAA AAA AAG AAA ACA AAG AAT AAC ACG AAC TTG AGA ATT ATC ATT TTG ATC ATG ATT GTT GCC GTA CAA CAG CAA CAG ATA CCA ATC CCT AGA TTG GAA GAC GAT AAG GCG GCG ACG GCT GGC GTG GTT GCC GCG ACT GTA TAC TAC TCG TCT TGC TTT TGG TGG TTT CTT TTG TTT TAT ATT TTG TTT TTT TTA TTC TTT TTC TTT
+Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208   ??? AAA AAG AAG AGA AAA AGG AAT AAT ACG GCG AGT AGG GTC GTA ATC ATG ATA CTC ATC GTT ATC GTT CAG CAA CAG CAG CAG CCT ATG CCC CGT TTG GAG GAC GAC AAT GCC TCG GCC GCC GGT ATA GTT GTC ACG GTG GTA TAT TAC TCA TCG TGC TGG TGG TGG TGG CTC TTA TTC TAT CTG TTT TTC TTT CTA TTC TTC TTC TTC
+Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466   ??? AAA AAA AAA AAG ACC AGA AAC AAC ACA ACT GGG CGA ATT ATC ATT ATG GTG ATG GTC GTT GTG GTC CAG CAG CAA CAG ATT CCA TTA CCG CGA CTG GAG GAT GAC AAA GCG ACT ACG GCG GGC ATA GTT GTT AAC ACG GTC TAC TAC TCG TCA TGT TTC TGG TGG TTT CTC CTA TTT TAC ATA TTG CAT TTC CTC TTC TTT CTC TAC
+Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627   ??? AAA AAA AAG AAA AAA AAA AAC AAC ACG ACC AGT AGC GCT CTC CTA ATG ATC ATG ATC GTC ACC ATT CAA CAG CAG CAG AAT CCT AAG CCT CGC CTG GAG GAC GAC AAT GCG GCC ACC GCT GGA CTC GTC TCT GTG ATC GTT TAT TAT ACA TCC TGT TGG TGG TGG CTC TTA TTA TTC TAC CTG TTC TTC TTT CTG TTC TTC TTT TTT
+Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250   ??? --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- CAG CAA --- --- --- --- --- --- GAA --- --- --- --- --- --- GCG --- --- --- --- --- --- --- TAT --- AGC --- --- --- --- TGG --- --- CTG --- --- --- TTC TTC --- --- --- --- --- ---
+Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898   ??? AAA AAA AAA CGT AGA AAA ACA AAC ACA ACT TCG AGT TTG GTC ATT ATG ATT TTT TTA ATT ATT GTC CAA CAA CAA AAT CTT CCA CCA CCA CGA CTG GAG GAT GAT ACG GTT GCG GCA GCT TCA GCT GTC GCT CTT ACG ATG ACT TAT ATC TCA TGC TGG TGG TGG TAC CTA ATG TTT TAC CTA TGC GTT TAC TTA TTC TTT TTC TTT
+Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346   ??? AAG AAA AAA AAA ACC AGA AAT AAC ACA ACA TTA CGG GTC ATC ATC ATG GTT ATG ATC GTG ATG GTG CAG CAG CAG CAG ATA CCC GTG CCA CGT CTG GAG GAT GAT AAA GGA GCA ACG GCG GGC ATT GTC CCA GCC ATA GTA TAC TAT TCA TCT TGC TTC TGG TGG TTC TTG CTA TTC TAT ATA CTC TTT TTT CTT TTT TTT TTT TTC
+Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418   ??? AAG AAG AAA AAA AAG GCA AAT AAT ACG ACC GCT AGG CTG GTA ATT ATG ATA CTG GTT GTT ATT GTT CAA CAA CAG CAA CAA CCG CTC CCA CGC TTG GAA GAC GAT AAG GCC GGT AGC GCG GGC GGT GTC ATT GGA ACC ATC ACA TAT TCG TCA TGC TGG TGG TGG TAC CTT CTC TTT TTT CTT TTT GTT TAC ATC TTC TTC TTT TTC
+Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850   ??? AGA AAA AAA AAG ACC CGG AAT AAT ACT ACT TTG AGA CTT ATA ATC CTT ATA ATG ATT GTT ACT GTT CAG CAG CAG CAG GTA CCG ATG CCA AGA CTA GAA GAC GAC AAG GGA TCG ACA GCA GGG CTT GTG GTA CTT ATA GTA TAT TAT TCT TCA TGT TTC TGG TGG TTC TTA TTA TTC TAC ATC CTG TTC TTT TTG TTT TTT TTT TTC
+Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087   ??? AAA AAA AAG AGA CAA AAG AAC AAT ACC ACC GCC CGA TTA GTC ATT ATG ATT ATG GTA GTT ATT GTA CAA CAA CAA CAA CAG CCA TAC CCG AGG TTA GAA GAC GAC AAA GCC TCG ACT GCC GGA GCA GTC ATC GCA GTT GTT CAG TAT TCC TCA TGC TGG TGG TGG TGG TTG TAC TTC TAT CTT TTT TAC TTT ATT TTT TTT TTC TTT
+
+
+
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    2    1    1    1    1    1
+    1    1    1    1    1    1    1    1    1    1
+
+
+Site-to-pattern map:  41 34 63 51 27 26 59 49 64 56  1  5 54 33 35  7 37 65 45 42 11 39 30  2 22 23 46  6  3 36 25 69 14 19 10 31 28 66 68 61 47 12 17 70 55 62 29 38 24 40 20  9 60 32 44 21 50 48 52 67 43 55 15  8 18 58 53 57 16  4 13
+CODONML (in paml version 4.9i, September 2018)  OG0006858.phy
+Model: several dN/dS ratios for branches, 
+Codon frequency model: F3x4
+Site-class models:  PositiveSelection
+ns =  14  ls =  71
+
+Codon usage in sequences
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   8   2   6   3   7   2 | Ser TCT   0   0   1   1   1   0 | Tyr TAT   1   2   1   3   1   2 | Cys TGT   0   1   1   0   0   0
+    TTC   2   3   2   5   2   6 |     TCC   0   2   1   0   0   0 |     TAC   1   1   2   1   2   1 |     TGC   1   0   1   1   1   1
+Leu TTA   2   2   2   1   1   1 |     TCA   2   2   0   0   0   1 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   1   1   0   1   5   1 |     TCG   0   0   0   1   1   2 |     TAG   0   0   0   0   0   0 | Trp TGG   5   4   5   3   3   5
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   3   3   1   1   0 | Pro CCT   0   0   2   0   1   1 | His CAT   0   0   0   0   0   0 | Arg CGT   1   0   0   1   0   1
+    CTC   0   0   0   1   0   2 |     CCC   0   1   1   1   0   1 |     CAC   0   0   0   0   0   0 |     CGC   0   0   0   0   0   0
+    CTA   0   1   0   1   0   1 |     CCA   3   1   0   1   1   0 | Gln CAA   4   3   1   1   2   1 |     CGA   0   1   0   0   0   0
+    CTG   1   1   1   1   0   1 |     CCG   1   1   0   0   0   0 |     CAG   0   2   3   3   2   4 |     CGG   0   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   4   5   1   4   4   0 | Thr ACT   3   0   1   1   1   0 | Asn AAT   2   1   3   1   1   3 | Ser AGT   0   0   1   0   0   1
+    ATC   1   1   2   2   3   3 |     ACC   0   2   0   1   0   0 |     AAC   0   1   0   1   2   0 |     AGC   0   0   0   0   0   0
+    ATA   2   2   0   2   1   2 |     ACA   0   1   1   2   1   0 | Lys AAA   6   3   5   2   3   2 | Arg AGA   1   1   1   1   2   1
+Met ATG   3   1   2   1   1   2 |     ACG   0   3   0   0   2   2 |     AAG   0   2   2   4   3   2 |     AGG   0   1   1   0   0   2
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   3   4   5   3   2   3 | Ala GCT   2   2   1   0   1   0 | Asp GAT   1   1   1   1   1   0 | Gly GGT   1   0   0   0   0   1
+    GTC   0   0   2   4   0   2 |     GCC   0   0   2   1   2   3 |     GAC   1   1   1   1   1   2 |     GGC   0   0   0   0   1   0
+    GTA   2   0   0   0   2   2 |     GCA   2   1   1   3   0   0 | Glu GAA   1   1   1   0   1   0 |     GGA   0   0   0   2   0   0
+    GTG   1   1   2   1   1   1 |     GCG   1   0   0   0   3   1 |     GAG   0   0   0   1   0   1 |     GGG   0   1   1   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Phe TTT   3   3   0   4   5   4 | Ser TCT   0   1   0   0   1   0 | Tyr TAT   0   2   1   1   2   1 | Cys TGT   1   1   0   0   0   0
+    TTC   3   5   2   2   4   3 |     TCC   0   1   0   0   0   0 |     TAC   4   1   0   3   1   2 |     TGC   0   0   0   2   1   1
+Leu TTA   1   2   0   2   1   0 |     TCA   1   0   0   2   1   1 | *** TAA   0   0   0   0   0   0 | *** TGA   0   0   0   0   0   0
+    TTG   1   0   0   1   1   1 |     TCG   1   0   0   1   0   1 |     TAG   0   0   0   0   0   0 | Trp TGG   3   4   1   4   3   4
+--------------------------------------------------------------------------------------------------------------------------------------
+Leu CTT   0   0   0   2   1   2 | Pro CCT   0   2   0   0   0   0 | His CAT   1   0   0   0   0   0 | Arg CGT   0   0   0   1   1   0
+    CTC   3   3   0   0   1   2 |     CCC   0   0   0   0   1   0 |     CAC   0   0   0   0   0   0 |     CGC   0   1   0   0   0   1
+    CTA   1   1   0   2   1   0 |     CCA   1   0   0   3   2   1 | Gln CAA   1   1   1   3   0   4 |     CGA   2   0   0   1   0   0
+    CTG   1   3   1   1   1   2 |     CCG   1   0   0   0   0   1 |     CAG   3   3   1   0   4   1 |     CGG   0   0   0   0   1   0
+--------------------------------------------------------------------------------------------------------------------------------------
+Ile ATT   3   1   0   4   1   3 | Thr ACT   2   0   0   2   0   0 | Asn AAT   0   2   0   1   1   2 | Ser AGT   0   1   0   1   0   0
+    ATC   1   3   0   1   3   2 |     ACC   1   3   0   0   1   2 |     AAC   3   2   0   1   1   0 |     AGC   0   1   1   0   0   1
+    ATA   2   0   0   0   3   1 |     ACA   1   1   0   2   2   1 | Lys AAA   4   5   0   4   4   2 | Arg AGA   1   0   0   1   1   0
+Met ATG   2   2   0   3   3   1 |     ACG   2   1   0   2   1   1 |     AAG   1   2   0   0   1   4 |     AGG   0   0   0   0   0   1
+--------------------------------------------------------------------------------------------------------------------------------------
+Val GTT   3   1   0   2   1   4 | Ala GCT   0   2   0   3   0   1 | Asp GAT   1   0   0   2   2   1 | Gly GGT   0   0   0   0   0   2
+    GTC   3   2   0   3   2   1 |     GCC   0   1   0   0   1   1 |     GAC   1   2   0   0   0   1 |     GGC   1   0   0   0   1   1
+    GTA   0   0   0   0   1   1 |     GCA   0   0   0   1   1   1 | Glu GAA   0   0   1   0   0   1 |     GGA   0   1   0   0   1   1
+    GTG   2   1   0   0   3   0 |     GCG   2   1   1   1   1   1 |     GAG   1   1   0   1   1   0 |     GGG   1   0   0   0   0   0
+--------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------
+Phe TTT   4   5 | Ser TCT   1   0 | Tyr TAT   2   2 | Cys TGT   1   0
+    TTC   5   2 |     TCC   0   1 |     TAC   1   3 |     TGC   0   1
+Leu TTA   2   2 |     TCA   1   1 | *** TAA   0   0 | *** TGA   0   0
+    TTG   2   1 |     TCG   1   1 |     TAG   0   0 | Trp TGG   3   5
+----------------------------------------------------------------------
+Leu CTT   4   1 | Pro CCT   0   0 | His CAT   0   0 | Arg CGT   0   0
+    CTC   0   0 |     CCC   0   0 |     CAC   0   0 |     CGC   0   0
+    CTA   1   0 |     CCA   1   1 | Gln CAA   0   5 |     CGA   0   1
+    CTG   1   0 |     CCG   1   1 |     CAG   4   2 |     CGG   1   0
+----------------------------------------------------------------------
+Ile ATT   1   4 | Thr ACT   3   1 | Asn AAT   2   1 | Ser AGT   0   0
+    ATC   2   1 |     ACC   1   2 |     AAC   0   1 |     AGC   0   0
+    ATA   3   0 |     ACA   1   0 | Lys AAA   2   3 | Arg AGA   3   1
+Met ATG   2   2 |     ACG   0   0 |     AAG   2   2 |     AGG   0   1
+----------------------------------------------------------------------
+Val GTT   2   3 | Ala GCT   0   0 | Asp GAT   0   0 | Gly GGT   0   0
+    GTC   0   2 |     GCC   0   3 |     GAC   2   2 |     GGC   0   0
+    GTA   3   2 |     GCA   1   2 | Glu GAA   1   1 |     GGA   1   1
+    GTG   1   0 |     GCG   0   0 |     GAG   0   0 |     GGG   1   0
+----------------------------------------------------------------------
+
+Codon position x base (3x4) table for each sequence.
+
+#1: Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696
+position  1:    T:0.32857    C:0.14286    A:0.31429    G:0.21429
+position  2:    T:0.42857    C:0.20000    A:0.24286    G:0.12857
+position  3:    T:0.37143    C:0.08571    A:0.35714    G:0.18571
+Average         T:0.37619    C:0.14286    A:0.30476    G:0.17619
+
+#2: Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594
+position  1:    T:0.28571    C:0.20000    A:0.34286    G:0.17143
+position  2:    T:0.38571    C:0.22857    A:0.25714    G:0.12857
+position  3:    T:0.30000    C:0.17143    A:0.27143    G:0.25714
+Average         T:0.32381    C:0.20000    A:0.29048    G:0.18571
+
+#3: Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860
+position  1:    T:0.31429    C:0.15714    A:0.28571    G:0.24286
+position  2:    T:0.40000    C:0.15714    A:0.28571    G:0.15714
+position  3:    T:0.38571    C:0.20000    A:0.17143    G:0.24286
+Average         T:0.36667    C:0.17143    A:0.24762    G:0.21429
+
+#4: Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621
+position  1:    T:0.28571    C:0.15714    A:0.31429    G:0.24286
+position  2:    T:0.44286    C:0.17143    A:0.27143    G:0.11429
+position  3:    T:0.27143    C:0.27143    A:0.22857    G:0.22857
+Average         T:0.33333    C:0.20000    A:0.27143    G:0.19524
+
+#5: Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793
+position  1:    T:0.34286    C:0.10000    A:0.34286    G:0.21429
+position  2:    T:0.42857    C:0.20000    A:0.27143    G:0.10000
+position  3:    T:0.30000    C:0.20000    A:0.20000    G:0.30000
+Average         T:0.35714    C:0.16667    A:0.27143    G:0.20476
+
+#6: Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208
+position  1:    T:0.31429    C:0.17143    A:0.28571    G:0.22857
+position  2:    T:0.41429    C:0.15714    A:0.25714    G:0.17143
+position  3:    T:0.20000    C:0.30000    A:0.15714    G:0.34286
+Average         T:0.30952    C:0.20952    A:0.23333    G:0.24762
+
+#7: Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466
+position  1:    T:0.25714    C:0.20000    A:0.32857    G:0.21429
+position  2:    T:0.41429    C:0.17143    A:0.28571    G:0.12857
+position  3:    T:0.20000    C:0.28571    A:0.21429    G:0.30000
+Average         T:0.29048    C:0.21905    A:0.27619    G:0.21429
+
+#8: Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627
+position  1:    T:0.28571    C:0.20000    A:0.34286    G:0.17143
+position  2:    T:0.38571    C:0.18571    A:0.30000    G:0.12857
+position  3:    T:0.22857    C:0.35714    A:0.15714    G:0.25714
+Average         T:0.30000    C:0.24762    A:0.26667    G:0.18571
+
+#9: Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250
+position  1:    T:0.40000    C:0.30000    A:0.10000    G:0.20000
+position  2:    T:0.30000    C:0.10000    A:0.40000    G:0.20000
+position  3:    T:0.10000    C:0.30000    A:0.20000    G:0.40000
+Average         T:0.26667    C:0.23333    A:0.23333    G:0.26667
+
+#10: Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898
+position  1:    T:0.31429    C:0.18571    A:0.31429    G:0.18571
+position  2:    T:0.38571    C:0.24286    A:0.22857    G:0.14286
+position  3:    T:0.32857    C:0.17143    A:0.30000    G:0.20000
+Average         T:0.34286    C:0.20000    A:0.28095    G:0.17619
+
+#11: Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346
+position  1:    T:0.28571    C:0.18571    A:0.31429    G:0.21429
+position  2:    T:0.45714    C:0.17143    A:0.24286    G:0.12857
+position  3:    T:0.21429    C:0.24286    A:0.25714    G:0.28571
+Average         T:0.31905    C:0.20000    A:0.27143    G:0.20952
+
+#12: Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418
+position  1:    T:0.25714    C:0.20000    A:0.30000    G:0.24286
+position  2:    T:0.38571    C:0.17143    A:0.27143    G:0.17143
+position  3:    T:0.28571    C:0.25714    A:0.20000    G:0.25714
+Average         T:0.30952    C:0.20952    A:0.25714    G:0.22381
+
+#13: Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850
+position  1:    T:0.32857    C:0.18571    A:0.31429    G:0.17143
+position  2:    T:0.47143    C:0.15714    A:0.22857    G:0.14286
+position  3:    T:0.28571    C:0.15714    A:0.28571    G:0.27143
+Average         T:0.36190    C:0.16667    A:0.27619    G:0.19524
+
+#14: Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087
+position  1:    T:0.34286    C:0.15714    A:0.27143    G:0.22857
+position  2:    T:0.35714    C:0.18571    A:0.31429    G:0.14286
+position  3:    T:0.24286    C:0.25714    A:0.28571    G:0.21429
+Average         T:0.31429    C:0.20000    A:0.29048    G:0.19524
+
+Sums of codon usage counts
+------------------------------------------------------------------------------
+Phe F TTT      56 | Ser S TCT       6 | Tyr Y TAT      21 | Cys C TGT       5
+      TTC      46 |       TCC       5 |       TAC      23 |       TGC      10
+Leu L TTA      19 |       TCA      12 | *** * TAA       0 | *** * TGA       0
+      TTG      16 |       TCG       9 |       TAG       0 | Trp W TGG      52
+------------------------------------------------------------------------------
+Leu L CTT      18 | Pro P CCT       6 | His H CAT       1 | Arg R CGT       5
+      CTC      12 |       CCC       5 |       CAC       0 |       CGC       2
+      CTA       9 |       CCA      15 | Gln Q CAA      27 |       CGA       5
+      CTG      15 |       CCG       6 |       CAG      32 |       CGG       2
+------------------------------------------------------------------------------
+Ile I ATT      35 | Thr T ACT      14 | Asn N AAT      20 | Ser S AGT       4
+      ATC      25 |       ACC      13 |       AAC      12 |       AGC       3
+      ATA      18 |       ACA      13 | Lys K AAA      45 | Arg R AGA      14
+Met M ATG      25 |       ACG      14 |       AAG      25 |       AGG       6
+------------------------------------------------------------------------------
+Val V GTT      36 | Ala A GCT      12 | Asp D GAT      11 | Gly G GGT       4
+      GTC      21 |       GCC      14 |       GAC      15 |       GGC       4
+      GTA      13 |       GCA      13 | Glu E GAA       8 |       GGA       7
+      GTG      14 |       GCG      12 |       GAG       6 |       GGG       4
+------------------------------------------------------------------------------
+
+(Ambiguity data are not used in the counts.)
+
+
+Codon position x base (3x4) table, overall
+
+position  1:    T:0.30435    C:0.17391    A:0.31087    G:0.21087
+position  2:    T:0.41087    C:0.18370    A:0.26739    G:0.13804
+position  3:    T:0.27609    C:0.22826    A:0.23696    G:0.25870
+Average         T:0.33043    C:0.19529    A:0.27174    G:0.20254
+
+Codon frequencies under model, for use in evolver (TTT TTC TTA TTG ... GGG):
+  0.03635212  0.03005490  0.03119985  0.03406222
+  0.01625267  0.01343724  0.01394914  0.01522888
+  0.02365773  0.01955954  0.00000000  0.00000000
+  0.01221354  0.01009781  0.00000000  0.01144419
+  0.02077264  0.01717423  0.01782849  0.01946413
+  0.00928724  0.00767843  0.00797094  0.00870222
+  0.01351870  0.01117688  0.01160267  0.01266713
+  0.00697917  0.00577018  0.00598999  0.00653953
+  0.03713109  0.03069893  0.03186842  0.03479213
+  0.01660094  0.01372519  0.01424805  0.01555521
+  0.02416468  0.01997867  0.02073976  0.02264249
+  0.01247526  0.01031419  0.01070711  0.01168942
+  0.02518682  0.02082375  0.02161704  0.02360025
+  0.01126078  0.00931009  0.00966476  0.01055144
+  0.01639143  0.01355197  0.01406823  0.01535889
+  0.00846224  0.00699634  0.00726287  0.00792919
+
+
+TREE #  1:  ((6, (((5, (7, ((4, 13), 11))), (9, 8)), 3)), ((12, 10), (2, 14)), 1);   MP score: -1
+check convergence..
+lnL(ntime: 25  np: 30):  -1978.649201      +0.000000
+  15..16   16..6    16..17   17..18   18..19   19..5    19..20   20..7    20..21   21..22   22..4    22..13   21..11   18..23   23..9    23..8    17..3    15..24   24..25   25..12   25..10   24..26   26..2    26..14   15..1  
+ 1.963534 8.721050 0.000004 6.614979 15.071111 3.625904 2.886974 11.237467 1.700453 1.253564 7.121509 7.662182 2.735716 7.726668 10.853587 0.000004 3.656778 10.783380 10.325044 10.882600 29.545097 1.353472 23.175024 10.353154 8.676274 2.424064 0.935424 0.064576 0.006000 2.535907
+
+Note: Branch length is defined as number of nucleotide substitutions per codon (not per neucleotide site).
+
+tree length = 197.925530
+
+((6: 8.721050, (((5: 3.625904, (7: 11.237467, ((4: 7.121509, 13: 7.662182): 1.253564, 11: 2.735716): 1.700453): 2.886974): 15.071111, (9: 10.853587, 8: 0.000004): 7.726668): 6.614979, 3: 3.656778): 0.000004): 1.963534, ((12: 10.882600, 10: 29.545097): 10.325044, (2: 23.175024, 14: 10.353154): 1.353472): 10.783380, 1: 8.676274);
+
+((Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208: 8.721050, (((Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793: 3.625904, (Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466: 11.237467, ((Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621: 7.121509, Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850: 7.662182): 1.253564, Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346: 2.735716): 1.700453): 2.886974): 15.071111, (Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250: 10.853587, Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627: 0.000004): 7.726668): 6.614979, Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860: 3.656778): 0.000004): 1.963534, ((Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418: 10.882600, Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898: 29.545097): 10.325044, (Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594: 23.175024, Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087: 10.353154): 1.353472): 10.783380, Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696: 8.676274);
+
+Detailed output identifying parameters
+
+kappa (ts/tv) =  2.42406
+
+
+MLEs of dN/dS (w) for site classes (K=4)
+
+site class             0        1       2a       2b
+proportion       0.93542  0.06458  0.00000  0.00000
+background w     0.00600  1.00000  0.00600  1.00000
+foreground w     0.00600  1.00000  2.53591  2.53591
+(note that p[2] is zero)
+
+
+
+Bayes Empirical Bayes (BEB) analysis (Yang, Wong & Nielsen 2005. Mol. Biol. Evol. 22:1107-1118)
+Positive sites for foreground lineages Prob(w>1):
+
+
+The grid (see ternary graph for p0-p1)
+
+w0:   0.050  0.150  0.250  0.350  0.450  0.550  0.650  0.750  0.850  0.950
+w2:   1.500  2.500  3.500  4.500  5.500  6.500  7.500  8.500  9.500 10.500
+
+
+Posterior on the grid
+
+w0:   1.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000  0.000
+w2:   0.100  0.100  0.100  0.100  0.100  0.100  0.100  0.100  0.100  0.100
+
+Posterior for p0-p1 (see the ternary graph) (YWN2015, fig. 1)
+
+ 0.000
+ 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.002 0.010 0.987
+
+sum of density on p0-p1 =   1.000000
+
+Time used:  5:51

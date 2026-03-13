@@ -1,0 +1,23 @@
+Gblocks 0.91b Results
+
+
+Processed file: OG0006853_out.aa_ali.fasta
+Number of sequences: 14
+Alignment assumed to be: Protein
+
+Parameters used
+Minimum Number Of Sequences For A Conserved Position: 11
+Minimum Number Of Sequences For A Flanking Position: 11
+Maximum Number Of Contiguous Nonconserved Positions: 2
+Minimum Length Of An Initial Block: 5
+Minimum Length Of A Block: 5
+Allowed Gap Positions: With Half
+Use Similarity Matrices: Yes
+
+Flank positions of the 11 selected block(s)
+Flanks: [34  88]  [94  109]  [116  148]  [157  172]  [178  197]  [201  238]  [242  268]  [272  296]  [305  335]  [344  366]  [375  433]  
+
+Flank positions of the 11 selected block(s) with respect to the first sequence of the alignment:
+Flanks_1: [24  78]  [84  99]  [106  138]  [146  161]  [167  186]  [190  227]  [231  257]  [261  285]  [294  324]  [333  355]  [364  422]  
+
+New number of positions in ./after_translatorx/OG0006853_out.aa_ali.fasta-gb: *** 343 *** (78% of the original 436 positions)

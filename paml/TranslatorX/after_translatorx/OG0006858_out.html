@@ -1,0 +1,397 @@
+<html>
+<head>
+	<style type='text/css'>
+
+
+div#rounded-box2 {margin:10 auto;padding:0;border-radius:7px;-moz-border-radius: 7px; -webkit-border-radius : 7px;}  
+div#rounded-box2 p {margin:0;padding:10px;}  	  
+	  
+	.elementoVisible {display:block;}
+	.elementoOculto {display:none;}
+	.linkContraido {
+		cursor: pointer;
+		background: url(EC_contraido.png) no-repeat;
+		color: #444444;
+		font-size: 10px;
+		font-weight: bold;
+		font-family: Verdana,Georgia,Helvetica;
+	}
+	.linkExpandido {
+		cursor: pointer;
+		background: url(EC_expandido.png) no-repeat;
+		color: #444444;
+		font-size: 10px;
+		font-weight: bold;
+		font-family: Verdana,Georgia,Helvetica;
+	}
+	TD, TR, BODY
+	{
+		font-size: 12px;
+		font-family: Verdana, Arial, Helvetica, Helv, sans-serif;
+	}
+	textarea
+	{
+  	border:1px solid #999999;
+	  width:98%;
+  	margin:5px 0;
+	  padding:1%;
+	}
+	.rjt
+	{
+ 		color : #3333BB;
+ 		font-size : 12px; 
+		font-weight: normal;
+		text-decoration : underline;
+		font-family: Verdana, Arial, Helvetica, Helv, sans-serif;
+	}	
+	
+
+	
+	</style>
+	
+	<script type='text/JavaScript'>
+	function desplegarContraer(cual,desde) {
+		var elElemento=document.getElementById(cual);
+		if(elElemento.className == 'elementoVisible') {
+		elElemento.className = 'elementoOculto';
+		desde.className = 'linkContraido';
+		} else {
+		elElemento.className = 'elementoVisible';
+		desde.className = 'linkExpandido';
+		}
+	}
+	function expandir(cual,desde) {
+		var elElemento=document.getElementById(cual);
+		elElemento.className = 'elementoVisible';
+	}
+	function contraer(cual,desde) {
+		var elElemento=document.getElementById(cual);
+		elElemento.className = 'elementoOculto';
+	}
+	function expandirlink(cual,desde) {
+		var elElemento=document.getElementById(cual);
+		elElemento.className = 'linkExpandido';
+	}
+	function contraerlink(cual,desde) {
+		var elElemento=document.getElementById(cual);
+		elElemento.className = 'linkContraido';
+	}
+	function alterlinks(cual,elotro,desde) {
+		var elElemento=document.getElementById(cual);
+		var elOtroElemento =document.getElementById(elotro);
+		if(elElemento.className == 'linkContraido') {
+		elElemento.className = 'linkExpandido';
+		elOtroElemento.className = 'linkContraido';
+		} else {
+		elElemento.className = 'linkContraido';
+		elOtroElemento.className = 'linkExpandido';
+		}
+	}
+	function send2file (nombre_elemento) {
+		var ta = document.getElementById(nombre_elemento);
+		var taval = ta.value;
+		var doc = document.open("text/save");
+		doc.writeln(taval);
+		doc.close(); 
+	}
+	function send2file_webserver (file) {
+		window.location = "/cgi-bin/sequences.fasta?file="+file;
+	}
+	function goBackToTranslatorx () {
+		window.location.replace("/index_v5.html");
+	}
+	</script>
+	<title>TranslatorX results</title>
+</head>
+
+<body>
+
+<table cellspacing=0 style="border : thin solid; border-color:#CCCCCC" width="100%" bgcolor="#CCCCCC"><tr><td>
+<table width="100%" border=0 cellspacing=5 bgcolor="#EEEEEE"><tr><td>
+
+
+
+
+<input type="button" value="Back" onclick="goBackToTranslatorx();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Help" onclick="window.open('/translatorx_help.html','TranslatorX help','width=640,height=600,scrollbars=1')"><br>
+<table border=0 cellspacing=10><tr valign="center"><td><table cellpadding=5><tr>
+<td bgcolor="#8282D2"><b>T</b></td>
+<td bgcolor="#F61A2A"><b>R</b></td>
+<td bgcolor="#1F921F"><b>A</b></td>
+<td bgcolor="#EBEBEB"><b>N</b></td>
+</tr><tr>
+<td bgcolor="#E6E600"><b>S</b></td>
+<td bgcolor="#444AFF"><b>L</b></td>
+<td bgcolor="#B45AB4"><b>A</b></td>
+<td bgcolor="#00AAAA"><b>T</b></td>
+</tr><tr>
+<td bgcolor="#5252AA"><b>O</b></td>
+<td bgcolor="#DC9682"><b>R</b></td>
+<td bgcolor="#8282AA"><b>-</b></td>
+<td bgcolor="#7FA27F"><b>X</b></td>
+</tr><tr>
+</tr></table><br></td><td>
+<b style="font-size: 20px;">TranslatorX results</b><br>
+<font color="#804444" style="font-size:10px;">Powered by ReadSeq, GBlocks, Jalview, Muscle, Clustalw, MAFFT, T-Coffee and PRank</font>
+</td></tr></table>
+<table border=0 cellspacing=10 width="95%"><tr valign="top">
+<td  width="50%" style="border-radius: 7px; -ms-border-radius: 7px; -moz-border-radius:7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px;z-index: 1; padding: 5px;  padding-left:40px; padding-right:15px;  padding-bottom:14px; padding-top:14px; height:90%; background-color:#CCAFAF;; layer-background-color:#CCCC88; ">
+<H2>Nucleotide Alignment</H2>
+<textarea id="nt_textarea" style="font-size=10px;" ROWS=12 COLS=50 wrap="off">
+>Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696
+------ATGTCAAGAATAATAAGAGTAGTGAAGGAAACTTTTAGAAAATATCCAATGATAGCTAATTCAACTGTCTATGGTACAATGTGTGTCGGAGCTGAATTTTCACAACAAATATTGACCAAACGGATTTTGAATAAAACCGAACCACAAGAACCAATTGACACAGAAGTGTTAGGACGATATGCCATAGTGGGCACTTTAATTAGTCCTAACATTTTATACTTTTGGTATAAATGGCTGGACAAAGCATTTGTGGGTACTGCGCCAAAAATTATTGTTAAAAAATTATTAATCGATCAATTTATAATGACTCCGCCATTTTATGTAGTATTTTTCGTTACTATGAGTCTCTTAGAGGGTAAAAAAAATCTATTTGAAGAATGCAGACAGAAGTTCATTCCTACATTTAAAACTAGTTGTGTGTTTTGGTTGCCAGCACAAGCTATTAATTTCATGTTGGTGCCACCGGCTGCCCGTGTAATTTATGTTGGAACGTGTTCATTTGTATGGATAAATATGTTATGCTGGATCAAAAGACATGATTACAATGCGATTAAAGAAGAATAA------------
+>Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594
+------ATGTCCAAAGTGGGAAAACTTATAAAACATGTTTTTGAAAAGCACCCTATTATTTCGAATTCAGTAGCGTATGGAATCCTTTTTGTAAGTTCCGAAATATCACAGCAGGTTGTTATAAAAAAAATTTTGACTGAAGAA------AAAGAACCGCTAGATAAGAAAACTATCGGACGATATGCGGTCTACGGGACACTTCTGCAGGGGCCTTACTTAACAATTTGGTTCAGATATTTGGATTCAAAACTGAAGGGGACCGCTTATAAAATTGTTACGCAAAAAGTTTTACTAGACCAATTCCTAGCTACCCCCCCACTTTACTGTCTTTTCTTTATCGCAATGAGTTTACTAGAAGGTAGAGAAGACTGTACCAAGGAACTAAAAGAAAAGTTTTTAACAACGTTCAAGACGAGCTGTATGTTTTGGCTTCCGGTTCAAACGATAAATTTCCTCTTAGTTCCACCCTCCTTCAGGGTGATTTACGTTGGTACTTGTTCCTTAACGTGGGTTAACATTCTTTGTTGGATTAAGCGACAGTAG------------------------------------
+>Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860
+------------ATGGTGCTGTCATTTATAAAACAAGCATTTCAAAAACGACCTATGTTGGCAAACTCAGTCGTCTACGGGACTATGTGTGTAGGAGCCGAATTTTCTCAGCAGTACGTTACAAAACGGATTCTTGATAAAAAGTCTCCACCAGAGCCAATTGACAAAGCATCTTTAGCGCGATACACCGTTTTAGGAACTTGTATCAATCCTAATATACTGTACTTTTGGTACAAATGGTTAGACAAGAATTTTGTTGGGACTGCTAAAAAAGTTGTTGTGAAGAAAGTGCTGATAGATCAGTTCTGTATGACACCTCCTCTTTACGTTATTTTCTACGTCAGTATGAGTTTAATGGAGGGGAAACGAGACCTCTTGGCAGAGTGTAGGGAGAAATTTATACCTACTTTTCAAACAAGTTGTGTATTTTGGCTTCCCGCACAAGCCGTCAATTTTATGCTAGTTCCTCCTGCAGCAAGAGTTGTGTATGTTGGAACCTGCTCCTTTTTATGGATCAATATTCTTTGCTGGATCAAAAGGCGAGACTTCAAGCCATCAGAGGAGGCTTGA------------
+>Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621
+---ATGGCATCGAAGCTAGCTAACTGGTGGCGCCAGTCGCTGAAGAAGAGACCCGTGATCACCAACACGGCGGTCTACGCCACCTTCTACACTGCGGCAGAGATTTCGCAGCAAACCTTCAATAAGATATACTCGCCGGAAAAG------CCA---AAACTAGACTTCGCTTCTGCCGGCCGCATAGTGGCAGTTGGAAGTTGCTTGTACGCTCCTACCCTGTATTATTGGTACAAGTTTTTGGATAAGAAGTTCGTCGGAACAGCCGTCAAAGCAGTCGCAGTTAAGGTCGCTTCGGACCAGTTTATCATGACTCCCATTTTATTAGCATCGTTCTACACACTACTTGGAGTATTGGAGCGTAAAGAAGACGTATTCGAGGAACTAAGGAGCAAATACTGGAAAACGTTTGTGGCGAACCAAGCCTTCTGGATTCCAGGACAGACCATTAACTTCTTCTTTGTACCCAGTAACTTGCGTGTGGTTTATGTCGCCTCAGCGTCTTTTATATGGATCAATGTTCTCTGCTTCATAAAAAGACAGAAAGTTGATAATCAACAAGAAAATGTTACAAGTAAATAA
+>Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793
+---ATGGCGTCAAAACTACTGGCTTGGTCGCGCCAATCACTACAACGTCGTCCGGTTCTAACCAACACCGTAGTCTACGCAACGTTTTATACTGCCGCTGAATTGTCGCAGCAAACCTTCAATAGAATTTACTCGCCGGAAAAG------CCA---GATTTAGATGTCGCGGCTGCCGCCCGAATCGTCTCAGTTGGTAGTACTGTTTACGCACCCACATTGTACTTTTGGTACAAATTTTTGGACAAGAAGTTTGCCGGCAACGCGATCAAAGCCGTAGCGACAAAAGTGGCTTCCGATCAGTTCATTATGACGCCTATATTATTGGCCACGTTTTATACTTTGTTGGGGATTTTAGAACGTAGAGAAGATGTTTTCGAAGAGCTAAAGCAGAAATACTGGAAGACGTTTATAGCCAATCAAGCATTTTGGATTCCAGCGCAAACGATTAACTTTTACTTCATGCCTTCACATTTGAGAGTTGTTTACGTAGCCTCAACATCTTTCGTGTGGATCAATATCCTTTGCTTTATTAAGAGACAAAAAAACATGAAAAAACTTGAAGAGATGCCATTATAA---
+>Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208
+------------ATGGCGATGTCGAGGGTCAAGTACATTTTCCAGAAATACCCGTTACTCGCCAATTCCGCTGTGTACGGAGGGATGTGCGTCACCGCCGAGTTTTCACAGCAGATGGTCAACAAGCGGTATTTTGACAGAAAAGAACCCCCTGAGCCTATTGACAAAGCGATGCTTGTGAGGTACGCCGTAGTCGGATCCTGCATCAATTCCAATATCTTATATTTCTGGTATAGATGGTTGGACAGGAATTTTGTCGGTGCGTCGATGAAAATCGTTACGAAAAAGCTGCTCCTCGACCAATTCGTCCTCACGCCCCAGCTACTCACCATCTTCTATGTGAGTATGAGCATTATGGAAGGCAAAGACGACCTATTGGCTGAGCTGAGGGAAAAATTCGTACCGACATTCCAGACGAGCTGTGGTTTCTGGCTGCCTGCCCAGGCCATCAATTTCCTCGTTGTTCCTCCCATGGCGCGTGTTGTTTACGTAGCGACGTGCTCGTTCATATGGGTAAATATACTCTGCTGGATCAAGAGGACCGAGCTCAAAAGCAACCCCAGCTGA---------------
+>Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466
+---ATGGCGTACCGTTTGTCGGGCTGGTTCCGCAGCTCGCTAAAGAAGCGTCCCGTGCTCACTAACACCGCCGTGTACGCCGCTTTCTACACCGCTGCGGAGTTGTCGCAGCAAACGTTTAATAAAATATATTCGACAGATAAG------CCA---GAAATCGACTTCGCAGCGGCGGGTCGTATAGTGACGGTTGGGAGTTGTCTCTACGCTCCTACTCTATACCATTGGTACAAGTTCCTGGATAGAAAATTCGTTGGCACTACTTTAAAAGTGGTCAACACCAAAGTTCTGTGCGACCAGCTCATTATGACACCGATTCTCCTGGCAATATTTTACACGGGGATGGGTATCGTCGAAAGGAGGGAAGACGTTTTCTCAGAACTCAAAGCCAAGTACTGGCGTACGTTTATCGCTAACCAGGCTTACTGGATACCAGCGCAGACGGTCAACTTTTTATTGATGCCACCAAACCTACGAGTTGTTTACGTCGCTTCCGCCTCATTCATATGGATCAACGTGCTCTGTTTTATTAAACGACAAACGACTGACAAGAAATAA---------------------
+>Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627
+---------------ATGGCTTCATTTATAAAGAGTGCATTCACTCGCTACCCTGTGATATCCAATGCTGTCGTCTATGGAACTATGTGTGTGGGTGCTGAGTTCACACAGCAGACTTTCAAACGAAACTATAGTGAAAAATCGAATCCTCCA---CCTTATGACGTAGCATCCTTAGGAAGATATGCTGTTGTTGGAACCTGTATAAATTCTAATCTCTTATATTTCTGGTACAAATGGCTGGACAAAAATTTTTCTGGAACCGCCAAGAAAACCATTGTGAAAAAATTACTATTGGACCAGTTTGCTATGACGCCTAATCTGCTAATTATCTTCTACATCAGTATGAGTATAATGGAGGGGAAACAGGACATATTTGAAGAGTGCAAGCAGAAGTTCATACCGACGTTCAAGTCGAGCTGTGGATTTTGGCTGCCTGCGCAAACCATCAACTTCCTATTGGTTCCCCCCGCTGCCCGCGTCGTCTATGTTGGCACATGTTCCTTCCTCTGGCTCAACATCTTATGTCTCCTAAAGAGCGAAAAAGTGGCAGAAGACACACCCGCTCTAGAAGCTTTATAA
+>Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250
+------ATG---GCTGTAGCCTTAAAAGTCCGCAATGTCTTTAAGAGATACCCCATCATGGCGAACGCTGCGACCTACGGAGGAATGTGTGTCCTCGCGGAATTCAGCCAACAGTTCATCACAAAGAGATATTTAGACAGAAAAGAACCACCAGAACCTATTGATAAAGCTTCCTTGGCACGCTATGCTGTAGTTGGATCCTGCATTAACTCAAATATGCTGTATTTCTGGTAA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898
+------ATGTCCGGTTTGATTCGCCTTTTAAAGTCTGGATTAACAAATTATCCAATTATAACGAATGCGGGAATTTTTGGGACGATGTTCGTCGGAGCTGAGTGCATCAATCAAACGTTATCCAAAAAAATCTTGACTGAAAAA------CCAAAGAGTTACGATTTCGATTGTATACAAAGATGCGGGATTTACGGCACTTTAATTCAAGGGCCATTAATGACTGTTTGGTATCGTTGGCTGGATAAAACGTACGCTTCAACTGCGCCAAAAATTGTCCTTAGAAAAATGTTAATGGATCAATTCTTGTTTACACCACTTTTATACGCAATTTTTTACACGTCGATGTCTATTTTGGAATGTCAAGAAAATCTTTTCGAAGAATTAATCCATAAATTCCCGAAAACGTTCACAGTAAGCTGCCTCTTTTGGCTACCAGTTCAAGCATTAAACTTTTCTTTAGTCCCTCCACTTTATCGAGTCATTTATATGGGAATAGCATCATTCGCTTGGGTCACAATTCTATGCTACATTAAAAGTGAAACCGTCGAAAAAGCACCAATAAAATCATCTAATAATTAA
+>Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346
+---ATGATGTCGAAGCTGGCGGGTTGGTGGCGGCAATCGCTGCGCCAGCGACCACTCATCACGAACACTATAACATATGCCACATTTTACACTGCCGCGGAGCTCTCACAGCAGACGTTCAACAAGATATATTCGCCAGAAAAA------CCG---CCGCTGGATTTTGCGGCTGCGGCCCGGATTGTGACGGTTGGCAGTTGTGTGTACGCACCAACACTATACTTTTGGTATAAATTCCTGGATAGAAAATTTCCAGGCACAGCAGTGAAGATGGTGGCCACCAAAGTGATGACTGATCAGTTTGTCATGACACCAATACTTCTCGCCGCGTTTTATATATTAATGGGTATTGTCGAAAGAAAAGAGGATATCTTTGAAGAAATAAAGGCGAAGTATTGGAAAACATTCATCGCTAACCAGGCCTTCTGGATACCCGGACAGACGATCAACTTCTTTTTCGTCCCAACACATTTGCGTGTCGTGTATGTAGCCTCAGCGTCTTTTATTTGGATCAATGTTTTGTGCTTCATCAAACGGCAGAAGACCGAGAAGACTGCATGA------------------
+>Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418
+---------------ATGTGGCGGCAATTTAAGGGTGCGTTTACAACGAGACCTATACTTACGAATGCCGTTGTGTACGGAACACTTTACGTCGGTGCGGAATTTTCGCAACAGGTTTTGTCCAGGAAAGTGTTGAGCGAGAAG------AAGGAAGCTTTGGATGTCGGAGCCCTTAAACGGTACACGTTGTACGGCACATTTATTCAAGGACCTCTGCTCACAGTTTGGTATAAATGGTTGGACGCAAAGTACATTGGCACCGGTCTCAAGATTGTTGGAAAGAAGCTATTGTTGGATCAATTTCTGCTGACGCCACAAATCGTATGGATATTCTTTACCGCTATGAGCATAATGGAAGGGAAAGAAGACATATTTGAGGAATGCAGAAGTAAATTCGTGCCCACCTTTCAATCGAGCTGCCTGTTCTGGCTTCCGGCCCAAAGCGTTAATTTTATGCTAATTCCGCCCACGTTTCGCGTCGTTTATATCGGTCTATGCTCATTCGGTTGGGTAAATATACTTTGCTACATTAAAAGGCAGAGTTTTTAG------------------------------
+>Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850
+ATGGCAATTTCACGGCTGGCTGGTTGGTGGCGACATTCGCTCAAAACAAGACCTATTTTGACCAACACTATTGTTTATGCTAGCTTCTATACCGCTGCAGAACTGTCTCAGCAGACATTTAATAAGATTTATGCCCCTGAGAAG------CCT---GAATTGGATTTTAAAAGTGCCGGTCGAATCGCTGCAGTTGGCAGCACTTTATACGCGCCAACATTATATTTCTGGTACAAGTTCCTAGACCGGAAGTTTGTAGGGACTTCGATGAGAACTGTTCTTACCAAAGTGGCGTCTGACCAGTTTCTTATGACTCCAGTATTGCTGGCTAGTTTTTACATATTGCTTGGAACTCTCGAAGGTAAAGAAGACGTGCTAGAAGAATTGAAACAGAAATATTGGAAGACATTTATAGCGAATCAAGCGTTCTGGATCCCGGGACAGACAATTAATTTCGCATTTGTACCTCCTAATCTGAGAGTGGTTTATGTAGCGTCTGCCTCATTTCTTTGGATAAATATATTATGTTTCATCAAAAGACAGAAAGTATAG------------------------------
+>Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087
+------ATGTCAAGTATTTTAAAATTCATTAAATATGCATTTACCAAATACCCGATCGCTTCCAATTCTCTGGTTTATGGAACACTTTACGTGGGAGCCGAATTTTCCCAACAAACCATCTCGAGAAAAGTTCTGAATAAAGAA------CCGATCATCTATGACCGCCAAATGCTCACATGTTTTGGAATTCTCGGTGTGACTGTTATTGCTCCAGTATACCAGTACTGGTACAGATGGTTAGACAAGAAATTTATCGGAACCTCGTACAAAATTGTAGCACAAAAACTGCTACTGGACCAATTCTTAATGACCCCGCAGATTTTGGTAATTTTTTATGTTGCCATGAGCATTATGGAGAAGAAGAAGGATATTTTTGAAGAATGTAAACAGAAAATAATCCCCACATTCAAGTCTAGTTGTATGTTTTGGCTTCCAGCCCAAACTGTAAATTTCTTGTTAATCCCCCCTTCGTTTAGGGTCGTTTATGTTGGGACTTGCTCATTTGCATGGGTCAACATTTTGTGCTGGATTAAGCGACAAGAATACTAG------------------------------
+</textarea><br>
+<input type="submit" value="Save fasta..." onclick="send2file('nt_textarea');"> 
+<ul><li><a href="" onclick="window.open('OG0006858_out.aa_based_codon_coloured.html','aa-based codon-coloured alignment','width=640,height=300,scrollbars=1')">View aa-based codon-coloured alignment [html]</a></li></ul>
+</td><td  width="50%" style="border-radius: 7px; -ms-border-radius: 7px; -moz-border-radius:7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px;z-index: 1; padding: 5px;  padding-left:40px; padding-right:15px;  padding-bottom:14px; padding-top:14px; height:90%; background-color:#86AAD4;; layer-background-color:#CCCC88; ">
+<H2>Amino acid alignment (mafft)</H2>
+<textarea id="aa_textarea" style="font-size=10px;" width="90%" ROWS=12 COLS=50 wrap="off">
+>Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696
+--MSRIIRVVKETFRKYPMIANSTVYGTMCVGAEFSQQILTKRILNKTEPQEPIDTEVLGRYAIVGTLISPNILYFWYKWLDKAFVGTAPKIIVKKLLIDQFIMTPPFYVVFFVTMSLLEGKKNLFEECRQKFIPTFKTSCVFWLPAQAINFMLVPPAARVIYVGTCSFVWINMLCWIKRHDYNAIKEEX----
+>Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594
+--MSKVGKLIKHVFEKHPIISNSVAYGILFVSSEISQQVVIKKILTEE--KEPLDKKTIGRYAVYGTLLQGPYLTIWFRYLDSKLKGTAYKIVTQKVLLDQFLATPPLYCLFFIAMSLLEGREDCTKELKEKFLTTFKTSCMFWLPVQTINFLLVPPSFRVIYVGTCSLTWVNILCWIKRQX------------
+>Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860
+----MVLSFIKQAFQKRPMLANSVVYGTMCVGAEFSQQYVTKRILDKKSPPEPIDKASLARYTVLGTCINPNILYFWYKWLDKNFVGTAKKVVVKKVLIDQFCMTPPLYVIFYVSMSLMEGKRDLLAECREKFIPTFQTSCVFWLPAQAVNFMLVPPAARVVYVGTCSFLWINILCWIKRRDFKPSEEAX----
+>Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621
+-MASKLANWWRQSLKKRPVITNTAVYATFYTAAEISQQTFNKIYSPEK--P-KLDFASAGRIVAVGSCLYAPTLYYWYKFLDKKFVGTAVKAVAVKVASDQFIMTPILLASFYTLLGVLERKEDVFEELRSKYWKTFVANQAFWIPGQTINFFFVPSNLRVVYVASASFIWINVLCFIKRQKVDNQQENVTSKX
+>Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793
+-MASKLLAWSRQSLQRRPVLTNTVVYATFYTAAELSQQTFNRIYSPEK--P-DLDVAAAARIVSVGSTVYAPTLYFWYKFLDKKFAGNAIKAVATKVASDQFIMTPILLATFYTLLGILERREDVFEELKQKYWKTFIANQAFWIPAQTINFYFMPSHLRVVYVASTSFVWINILCFIKRQKNMKKLEEMPLX-
+>Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208
+----MAMSRVKYIFQKYPLLANSAVYGGMCVTAEFSQQMVNKRYFDRKEPPEPIDKAMLVRYAVVGSCINSNILYFWYRWLDRNFVGASMKIVTKKLLLDQFVLTPQLLTIFYVSMSIMEGKDDLLAELREKFVPTFQTSCGFWLPAQAINFLVVPPMARVVYVATCSFIWVNILCWIKRTELKSNPSX-----
+>Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466
+-MAYRLSGWFRSSLKKRPVLTNTAVYAAFYTAAELSQQTFNKIYSTDK--P-EIDFAAAGRIVTVGSCLYAPTLYHWYKFLDRKFVGTTLKVVNTKVLCDQLIMTPILLAIFYTGMGIVERREDVFSELKAKYWRTFIANQAYWIPAQTVNFLLMPPNLRVVYVASASFIWINVLCFIKRQTTDKKX-------
+>Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627
+-----MASFIKSAFTRYPVISNAVVYGTMCVGAEFTQQTFKRNYSEKSNPP-PYDVASLGRYAVVGTCINSNLLYFWYKWLDKNFSGTAKKTIVKKLLLDQFAMTPNLLIIFYISMSIMEGKQDIFEECKQKFIPTFKSSCGFWLPAQTINFLLVPPAARVVYVGTCSFLWLNILCLLKSEKVAEDTPALEALX
+>Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250
+--M-AVALKVRNVFKRYPIMANAATYGGMCVLAEFSQQFITKRYLDRKEPPEPIDKASLARYAVVGSCINSNMLYFWX--------------------------------------------------------------------------------------------------------------------
+>Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898
+--MSGLIRLLKSGLTNYPIITNAGIFGTMFVGAECINQTLSKKILTEK--PKSYDFDCIQRCGIYGTLIQGPLMTVWYRWLDKTYASTAPKIVLRKMLMDQFLFTPLLYAIFYTSMSILECQENLFEELIHKFPKTFTVSCLFWLPVQALNFSLVPPLYRVIYMGIASFAWVTILCYIKSETVEKAPIKSSNNX
+>Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346
+-MMSKLAGWWRQSLRQRPLITNTITYATFYTAAELSQQTFNKIYSPEK--P-PLDFAAAARIVTVGSCVYAPTLYFWYKFLDRKFPGTAVKMVATKVMTDQFVMTPILLAAFYILMGIVERKEDIFEEIKAKYWKTFIANQAFWIPGQTINFFFVPTHLRVVYVASASFIWINVLCFIKRQKTEKTAX------
+>Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418
+-----MWRQFKGAFTTRPILTNAVVYGTLYVGAEFSQQVLSRKVLSEK--KEALDVGALKRYTLYGTFIQGPLLTVWYKWLDAKYIGTGLKIVGKKLLLDQFLLTPQIVWIFFTAMSIMEGKEDIFEECRSKFVPTFQSSCLFWLPAQSVNFMLIPPTFRVVYIGLCSFGWVNILCYIKRQSFX----------
+>Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850
+MAISRLAGWWRHSLKTRPILTNTIVYASFYTAAELSQQTFNKIYAPEK--P-ELDFKSAGRIAAVGSTLYAPTLYFWYKFLDRKFVGTSMRTVLTKVASDQFLMTPVLLASFYILLGTLEGKEDVLEELKQKYWKTFIANQAFWIPGQTINFAFVPPNLRVVYVASASFLWINILCFIKRQKVX----------
+>Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087
+--MSSILKFIKYAFTKYPIASNSLVYGTLYVGAEFSQQTISRKVLNKE--PIIYDRQMLTCFGILGVTVIAPVYQYWYRWLDKKFIGTSYKIVAQKLLLDQFLMTPQILVIFYVAMSIMEKKKDIFEECKQKIIPTFKSSCMFWLPAQTVNFLLIPPSFRVVYVGTCSFAWVNILCWIKRQEYX----------</textarea><br>
+<input type="submit" value="Save fasta..." onclick="send2file('aa_textarea');"> 
+</td></tr></table>
+<table border=0 width="95%" cellspacing=10 ><tr>
+<td width="50%" valign="top"  style="border-radius: 7px; -ms-border-radius: 7px; -moz-border-radius:7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px;z-index: 1; padding: 5px;  padding-left:40px; padding-right:15px;  padding-bottom:14px; padding-top:14px; background-color:#8899AA;; layer-background-color:#CCCC88; ">
+<H2>Clean nucleotide alignment (Gblocks)</H2>
+<textarea id="clean_nt_textarea" style="font-size=10px;" ROWS=12 COLS=50 wrap="off">
+>Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696
+GCTGAATTTTCACAACAATTATACTTTTGGTATAAATGGCTGGACAAAGCATTTGTGGGTACTGCGCCAAAAATTATTGTTAAAAAAGATCAATTTATAATGACTCCGCCATTTTTTTTCGTTACTATGTTTTGGTTGCCAGCACAAGCTATTAATTTCCGTGTAATTTATGTTTCATTTGTATGGATAAATATGTTATGCTGGATCAAAAGA
+>Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594
+TCCGAAATATCACAGCAGTTAACAATTTGGTTCAGATATTTGGATTCAAAACTGAAGGGGACCGCTTATAAAATTGTTACGCAAAAAGACCAATTCCTAGCTACCCCCCCACTTTTCTTTATCGCAATGTTTTGGCTTCCGGTTCAAACGATAAATTTCAGGGTGATTTACGTTTCCTTAACGTGGGTTAACATTCTTTGTTGGATTAAGCGA
+>Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860
+GCCGAATTTTCTCAGCAGCTGTACTTTTGGTACAAATGGTTAGACAAGAATTTTGTTGGGACTGCTAAAAAAGTTGTTGTGAAGAAAGATCAGTTCTGTATGACACCTCCTCTTTTCTACGTCAGTATGTTTTGGCTTCCCGCACAAGCCGTCAATTTTAGAGTTGTGTATGTTTCCTTTTTATGGATCAATATTCTTTGCTGGATCAAAAGG
+>Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621
+GCAGAGATTTCGCAGCAACTGTATTATTGGTACAAGTTTTTGGATAAGAAGTTCGTCGGAACAGCCGTCAAAGCAGTCGCAGTTAAGGACCAGTTTATCATGACTCCCATTTTATTCTACACACTACTTTTCTGGATTCCAGGACAGACCATTAACTTCCGTGTGGTTTATGTCTCTTTTATATGGATCAATGTTCTCTGCTTCATAAAAAGA
+>Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793
+GCTGAATTGTCGCAGCAATTGTACTTTTGGTACAAATTTTTGGACAAGAAGTTTGCCGGCAACGCGATCAAAGCCGTAGCGACAAAAGATCAGTTCATTATGACGCCTATATTATTTTATACTTTGTTGTTTTGGATTCCAGCGCAAACGATTAACTTTAGAGTTGTTTACGTATCTTTCGTGTGGATCAATATCCTTTGCTTTATTAAGAGA
+>Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208
+GCCGAGTTTTCACAGCAGTTATATTTCTGGTATAGATGGTTGGACAGGAATTTTGTCGGTGCGTCGATGAAAATCGTTACGAAAAAGGACCAATTCGTCCTCACGCCCCAGCTATTCTATGTGAGTATGTTCTGGCTGCCTGCCCAGGCCATCAATTTCCGTGTTGTTTACGTATCGTTCATATGGGTAAATATACTCTGCTGGATCAAGAGG
+>Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466
+GCGGAGTTGTCGCAGCAACTATACCATTGGTACAAGTTCCTGGATAGAAAATTCGTTGGCACTACTTTAAAAGTGGTCAACACCAAAGACCAGCTCATTATGACACCGATTCTCTTTTACACGGGGATGTACTGGATACCAGCGCAGACGGTCAACTTTCGAGTTGTTTACGTCTCATTCATATGGATCAACGTGCTCTGTTTTATTAAACGA
+>Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627
+GCTGAGTTCACACAGCAGTTATATTTCTGGTACAAATGGCTGGACAAAAATTTTTCTGGAACCGCCAAGAAAACCATTGTGAAAAAAGACCAGTTTGCTATGACGCCTAATCTGTTCTACATCAGTATGTTTTGGCTGCCTGCGCAAACCATCAACTTCCGCGTCGTCTATGTTTCCTTCCTCTGGCTCAACATCTTATGTCTCCTAAAGAGC
+>Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250
+GCGGAATTCAGCCAACAGCTGTATTTCTGGTAA------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+>Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898
+GCTGAGTGCATCAATCAAATGACTGTTTGGTATCGTTGGCTGGATAAAACGTACGCTTCAACTGCGCCAAAAATTGTCCTTAGAAAAGATCAATTCTTGTTTACACCACTTTTATTTTACACGTCGATGTTTTGGCTACCAGTTCAAGCATTAAACTTTCGAGTCATTTATATGTCATTCGCTTGGGTCACAATTCTATGCTACATTAAAAGT
+>Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346
+GCGGAGCTCTCACAGCAGCTATACTTTTGGTATAAATTCCTGGATAGAAAATTTCCAGGCACAGCAGTGAAGATGGTGGCCACCAAAGATCAGTTTGTCATGACACCAATACTTTTTTATATATTAATGTTCTGGATACCCGGACAGACGATCAACTTCCGTGTCGTGTATGTATCTTTTATTTGGATCAATGTTTTGTGCTTCATCAAACGG
+>Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418
+GCGGAATTTTCGCAACAGCTCACAGTTTGGTATAAATGGTTGGACGCAAAGTACATTGGCACCGGTCTCAAGATTGTTGGAAAGAAGGATCAATTTCTGCTGACGCCACAAATCTTCTTTACCGCTATGTTCTGGCTTCCGGCCCAAAGCGTTAATTTTCGCGTCGTTTATATCTCATTCGGTTGGGTAAATATACTTTGCTACATTAAAAGG
+>Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850
+GCAGAACTGTCTCAGCAGTTATATTTCTGGTACAAGTTCCTAGACCGGAAGTTTGTAGGGACTTCGATGAGAACTGTTCTTACCAAAGACCAGTTTCTTATGACTCCAGTATTGTTTTACATATTGCTTTTCTGGATCCCGGGACAGACAATTAATTTCAGAGTGGTTTATGTATCATTTCTTTGGATAAATATATTATGTTTCATCAAAAGA
+>Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087
+GCCGAATTTTCCCAACAATACCAGTACTGGTACAGATGGTTAGACAAGAAATTTATCGGAACCTCGTACAAAATTGTAGCACAAAAAGACCAATTCTTAATGACCCCGCAGATTTTTTATGTTGCCATGTTTTGGCTTCCAGCCCAAACTGTAAATTTCAGGGTCGTTTATGTTTCATTTGCATGGGTCAACATTTTGTGCTGGATTAAGCGA
+</textarea><br>
+<input type="submit" value="Save fasta..." onclick="send2file('clean_nt_textarea');"> 
+<ul><li><a href="" onclick="window.open('OG0006858_out.aa_based_codon_coloured-gb.html','aa-based codon-coloured gblocks alignment','width=640,height=300,scrollbars=1')">View aa-based codon-coloured alignment [html]</a></li></ul>
+</td><td width="50%" valign="top" style="border-radius: 7px; -ms-border-radius: 7px; -moz-border-radius:7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px;z-index: 1; padding: 5px;  padding-left:40px; padding-right:15px;  padding-bottom:14px; padding-top:14px; height:90%; background-color:#83C2C0;; layer-background-color:#CCCC88; ">
+<H2>Clean amino acid alignment (Gblocks)</H2>
+<textarea id="clean_aa_textarea" style="font-size=10px;" width="90%" ROWS=12 COLS=50 wrap="off">
+>Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696
+AEFSQQLYFWYKWLDKAFVGTAPKIIVKKDQFIMTPPFFFVTMFWLPAQAINFRVIYVSFVWINMLCWIKR
+>Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594
+SEISQQLTIWFRYLDSKLKGTAYKIVTQKDQFLATPPLFFIAMFWLPVQTINFRVIYVSLTWVNILCWIKR
+>Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860
+AEFSQQLYFWYKWLDKNFVGTAKKVVVKKDQFCMTPPLFYVSMFWLPAQAVNFRVVYVSFLWINILCWIKR
+>Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621
+AEISQQLYYWYKFLDKKFVGTAVKAVAVKDQFIMTPILFYTLLFWIPGQTINFRVVYVSFIWINVLCFIKR
+>Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793
+AELSQQLYFWYKFLDKKFAGNAIKAVATKDQFIMTPILFYTLLFWIPAQTINFRVVYVSFVWINILCFIKR
+>Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208
+AEFSQQLYFWYRWLDRNFVGASMKIVTKKDQFVLTPQLFYVSMFWLPAQAINFRVVYVSFIWVNILCWIKR
+>Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466
+AELSQQLYHWYKFLDRKFVGTTLKVVNTKDQLIMTPILFYTGMYWIPAQTVNFRVVYVSFIWINVLCFIKR
+>Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627
+AEFTQQLYFWYKWLDKNFSGTAKKTIVKKDQFAMTPNLFYISMFWLPAQTINFRVVYVSFLWLNILCLLKS
+>Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250
+AEFSQQLYFWX------------------------------------------------------------
+>Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898
+AECINQMTVWYRWLDKTYASTAPKIVLRKDQFLFTPLLFYTSMFWLPVQALNFRVIYMSFAWVTILCYIKS
+>Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346
+AELSQQLYFWYKFLDRKFPGTAVKMVATKDQFVMTPILFYILMFWIPGQTINFRVVYVSFIWINVLCFIKR
+>Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418
+AEFSQQLTVWYKWLDAKYIGTGLKIVGKKDQFLLTPQIFFTAMFWLPAQSVNFRVVYISFGWVNILCYIKR
+>Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850
+AELSQQLYFWYKFLDRKFVGTSMRTVLTKDQFLMTPVLFYILLFWIPGQTINFRVVYVSFLWINILCFIKR
+>Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087
+AEFSQQYQYWYRWLDKKFIGTSYKIVAQKDQFLMTPQIFYVAMFWLPAQTVNFRVVYVSFAWVNILCWIKR</textarea><br>
+<input type="submit" value="Save fasta..." onclick="send2file('clean_aa_textarea');"> 
+<ul><li><a href="OG0006858_out.aa_ali.fasta-gb.htm">GBlocks Results: graphical representation in html</a></li>
+<li><a href="OG0006858_out.aa_ali.fasta-gb.txts">Blocks coordinates</a></li></ul>
+</td></tr></table>
+<table border=0 width="95%" cellspacing=10 ><tr><td  colspan="2" style="border-radius: 7px; -ms-border-radius: 7px; -moz-border-radius:7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px;z-index: 1; padding: 5px;  padding-left:40px; padding-right:15px;  padding-bottom:14px; padding-top:14px; height:90%; background-color:#6CB381;; layer-background-color:#CCCC88; ">
+<H2>Compositional bias (GC content) and 1st, 2nd and 3rd position nt-alignments</H2>
+</td></tr><tr><td style="border-radius: 7px; -ms-border-radius: 7px; -moz-border-radius:7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px;z-index: 1; padding: 5px;  padding-left:40px; padding-right:15px;  padding-bottom:14px; padding-top:14px; height:90%; background-color:#7CC391;; layer-background-color:#CCCC88; "><h3>Original data</h3>
+<table bgcolor="B2CFD4" Border=0 CELLSPACING="6" style="border : thin solid; ">
+<tr><th>Taxa</th><th>GC</th><th>GC 1st</th><th>GC 2nd</th><th>GC 3rd</th></tr>
+<tr><td><i>Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696</i></td><td>33.69</td><td>37.77</td><td>35.11</td><td>28.19</td></tr>
+<tr><td><i>Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898</i></td><td>35.96</td><td>35.79</td><td>37.37</td><td>34.74</td></tr>
+<tr><td><i>Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594</i></td><td>37.83</td><td>41.57</td><td>33.71</td><td>38.20</td></tr>
+<tr><td><i>Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087</i></td><td>38.15</td><td>37.22</td><td>32.78</td><td>44.44</td></tr>
+<tr><td><i>Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860</i></td><td>40.32</td><td>44.62</td><td>37.63</td><td>38.71</td></tr>
+<tr><td><i>Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850</i></td><td>41.07</td><td>43.65</td><td>39.78</td><td>39.78</td></tr>
+<tr><td><i>Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793</i></td><td>42.15</td><td>42.33</td><td>37.57</td><td>46.56</td></tr>
+<tr><td><i>Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627</i></td><td>42.55</td><td>42.02</td><td>38.30</td><td>47.34</td></tr>
+<tr><td><i>Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250</i></td><td>44.00</td><td>44.00</td><td>40.00</td><td>48.00</td></tr>
+<tr><td><i>Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418</i></td><td>44.26</td><td>44.07</td><td>37.29</td><td>51.41</td></tr>
+<tr><td><i>Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621</i></td><td>45.09</td><td>43.68</td><td>37.37</td><td>54.21</td></tr>
+<tr><td><i>Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346</i></td><td>46.38</td><td>44.02</td><td>40.22</td><td>54.89</td></tr>
+<tr><td><i>Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466</i></td><td>47.54</td><td>44.81</td><td>39.89</td><td>57.92</td></tr>
+<tr><td><i>Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208</i></td><td>49.19</td><td>44.32</td><td>36.76</td><td>66.49</td></tr>
+<tr><td><b>Overall</b></td><td><b>41.92</b></td><td><b>42.04</b></td><td><b>37.31</b></td><td><b>46.40</b></td></tr>
+</table>
+<table border=0><tr><td>1st position nt alignment</td> 
+<td><applet code="jalview.bin.JalviewLite" archive="../jalviewApplet.jar" width="140" height="35"
+                   <param name="file" value="OG0006858_out.nt1_ali.fasta">
+                   <param name="defaultColour" value="% Identity">
+                   <param name="label"  value="View alignment">
+                   <param name="RGB"  value="7CC391">
+                   <param name="showQuality" value="false">
+                   <param name="showConsensus" value="false">
+                   <param name="showConservation" value="false">
+</applet></td></tr>
+<tr><td>2nd position nt alignment</td> 
+<td><applet code="jalview.bin.JalviewLite" archive="../jalviewApplet.jar" width="140" height="35"
+                   <param name="file" value="OG0006858_out.nt2_ali.fasta">
+                   <param name="defaultColour" value="% Identity">
+                   <param name="label"  value="View alignment">
+                   <param name="RGB"  value="7CC391">
+                   <param name="showQuality" value="false">
+                   <param name="showConsensus" value="false">
+                   <param name="showConservation" value="false">
+</applet></td></tr>
+<tr><td>3rd position nt alignment</td> 
+<td><applet code="jalview.bin.JalviewLite" archive="../jalviewApplet.jar" width="140" height="35"
+                   <param name="file" value="OG0006858_out.nt3_ali.fasta">
+                   <param name="defaultColour" value="% Identity">
+                   <param name="label"  value="View alignment">
+                   <param name="RGB"  value="7CC391">
+                   <param name="showQuality" value="false">
+                   <param name="showConsensus" value="false">
+                   <param name="showConservation" value="false">
+</applet></td></tr>
+<tr><td>1st+2nd positions nt alignment</td> 
+<td><applet code="jalview.bin.JalviewLite" archive="../jalviewApplet.jar" width="140" height="35"
+                   <param name="file" value="OG0006858_out.nt12_ali.fasta">
+                   <param name="defaultColour" value="% Identity">
+                   <param name="label"  value="View alignment">
+                   <param name="RGB"  value="7CC391">
+                   <param name="showQuality" value="false">
+                   <param name="showConsensus" value="false">
+                   <param name="showConservation" value="false">
+</applet></td></tr></table>
+</td><td style="border-radius: 7px; -ms-border-radius: 7px; -moz-border-radius:7px; -webkit-border-radius: 7px; -khtml-border-radius: 7px;z-index: 1; padding: 5px;  padding-left:40px; padding-right:15px;  padding-bottom:14px; padding-top:14px; height:90%; background-color:#7CC391;; layer-background-color:#CCCC88; ">
+<h3>After Gblocks</h3>
+<table bgcolor="B2CFD4" Border=0 CELLSPACING="6" style="border : thin solid; ">
+<tr><th>Taxa</th><th>GC</th><th>GC 1st</th><th>GC 2nd</th><th>GC 3rd</th></tr>
+<tr><td><i>Acyrthosiphon_pisum|NC_042495.1_prot_NP_001156046.1_19696</i></td><td>31.46</td><td>35.21</td><td>32.39</td><td>26.76</td></tr>
+<tr><td><i>Onthophagus_taurus|NW_019280651.1_prot_XP_022904673.1_7898</i></td><td>37.09</td><td>36.62</td><td>38.03</td><td>36.62</td></tr>
+<tr><td><i>Agrilus_planipennis|NW_020442466.1_prot_XP_025836892.1_21594</i></td><td>38.50</td><td>36.62</td><td>35.21</td><td>43.66</td></tr>
+<tr><td><i>Tribolium_castaneum|NC_007423.3_prot_XP_008197040.1_17087</i></td><td>39.44</td><td>38.03</td><td>32.39</td><td>47.89</td></tr>
+<tr><td><i>Bemisia_tabaci|NW_017547132.1_prot_XP_018895634.1_3860</i></td><td>38.50</td><td>39.44</td><td>30.99</td><td>45.07</td></tr>
+<tr><td><i>Pieris_rapae|NW_019093219.1_prot_XP_022113498.1_4850</i></td><td>36.15</td><td>35.21</td><td>29.58</td><td>43.66</td></tr>
+<tr><td><i>Bombyx_mori|NW_004582023.1_prot_XP_004931563.1_17793</i></td><td>37.09</td><td>30.99</td><td>29.58</td><td>50.70</td></tr>
+<tr><td><i>Nilaparvata_lugens|NW_019105592.1_prot_XP_022197847.1_1627</i></td><td>43.19</td><td>36.62</td><td>30.99</td><td>61.97</td></tr>
+<tr><td><i>Oncopeltus_fasciatus|KK854989.1_prot_PTY20137.1_11250</i></td><td>45.45</td><td>45.45</td><td>27.27</td><td>63.64</td></tr>
+<tr><td><i>Photinus_pyralis|NW_022170663.1_prot_XP_031349123.1_21418</i></td><td>42.72</td><td>43.66</td><td>33.80</td><td>50.70</td></tr>
+<tr><td><i>Bicyclus_anynana|NW_019862999.1_prot_XP_023943807.1_12621</i></td><td>39.44</td><td>39.44</td><td>28.17</td><td>50.70</td></tr>
+<tr><td><i>Papilio_xuthus|NW_013531704.1_prot_XP_013172039.1_13346</i></td><td>40.38</td><td>39.44</td><td>29.58</td><td>52.11</td></tr>
+<tr><td><i>Danaus_plexippus|NC_045824.1_prot_XP_032520247.1_12466</i></td><td>43.19</td><td>40.85</td><td>29.58</td><td>59.15</td></tr>
+<tr><td><i>Cimex_lectularius|NW_019392685.1_prot_XP_014243455.1_8208</i></td><td>45.07</td><td>39.44</td><td>32.39</td><td>63.38</td></tr>
+<tr><td><b>Overall</b></td><td><b>39.47</b></td><td><b>37.90</b></td><td><b>31.69</b></td><td><b>48.82</b></td></tr>
+</table>
+<table border=0><tr><td>1st position nt alignment</td> 
+<td><applet code="jalview.bin.JalviewLite" archive="../jalviewApplet.jar" width="140" height="35"
+                   <param name="file" value="OG0006858_out.nt1_cleanali.fasta">
+                   <param name="defaultColour" value="% Identity">
+                   <param name="label"  value="View alignment">
+                   <param name="RGB"  value="7CC391">
+                   <param name="showQuality" value="false">
+                   <param name="showConsensus" value="false">
+                   <param name="showConservation" value="false">
+</applet></td>
+<tr><td>2nd position nt alignment</td> 
+<td><applet code="jalview.bin.JalviewLite" archive="../jalviewApplet.jar" width="140" height="35"
+                   <param name="file" value="OG0006858_out.nt2_cleanali.fasta">
+                   <param name="defaultColour" value="% Identity">
+                   <param name="label"  value="View alignment">
+                   <param name="RGB"  value="7CC391">
+                   <param name="showQuality" value="false">
+                   <param name="showConsensus" value="false">
+                   <param name="showConservation" value="false">
+</applet></td>
+<tr><td>3rd position nt alignment</td> 
+<td><applet code="jalview.bin.JalviewLite" archive="../jalviewApplet.jar" width="140" height="35"
+                   <param name="file" value="OG0006858_out.nt3_cleanali.fasta">
+                   <param name="defaultColour" value="% Identity">
+                   <param name="label"  value="View alignment">
+                   <param name="RGB"  value="7CC391">
+                   <param name="showQuality" value="false">
+                   <param name="showConsensus" value="false">
+                   <param name="showConservation" value="false">
+</applet></td>
+<tr><td>1st+2nd positions nt alignment</td> 
+<td><applet code="jalview.bin.JalviewLite" archive="../jalviewApplet.jar" width="140" height="35"
+                   <param name="file" value="OG0006858_out.nt12_cleanali.fasta">
+                   <param name="defaultColour" value="% Identity">
+                   <param name="label"  value="View alignment">
+                   <param name="RGB"  value="7CC391">
+                   <param name="showQuality" value="false">
+                   <param name="showConsensus" value="false">
+                   <param name="showConservation" value="false">
+</applet></td></tr></table>
+</td></tr></table>
+</td></tr></table>
+	</body></html>
